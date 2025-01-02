@@ -15,6 +15,6 @@
 
 - [ ] Start using Vue.JS
 - [ ] Use redo all css using TailWind CSS
-- [ ] Improve the chat romm
+- [x] Improve the chat room
 - [ ] Find a better way to add suggestions
 - [ ] Add back some games of demand
