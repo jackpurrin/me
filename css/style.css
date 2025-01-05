@@ -11,34 +11,13 @@ body {
     color: white;
 }
 
-#wrapper {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#wrapper > div {
+.website {
     width: 15%;
-    background-color: #185a83c3;
-    border: dotted 3px;
-    border-radius: 15px;
-    padding-left: 0.5vw;
+    height: 100%;
+    background-image: url("/assets/images/scroller-bg.gif");
 }
 
 h1 {
     text-align: right;
     font-size: 3rem;
 }
-
-a {
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    font-size: 1.7rem;
-    color: rgb(204, 173, 173);
-    text-decoration: underline;
-}
-
-
