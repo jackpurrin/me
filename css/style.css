@@ -1,23 +1,30 @@
-@font-face {
-    font-family: "notepad";
-    src: url("/assets/fonts/Notepen.woff") format('woff');
-}
-
 body {
-    background-image: url("/assets/images/background.jpg");
+    background-image: url("/assets/images/scroller-bg.gif");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: notepad;
     color: white;
 }
 
-.website {
-    width: 15%;
-    height: 100%;
-    background-image: url("/assets/images/scroller-bg.gif");
+body,html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+@font-face {
+    font-family: "notepad";
+    src: url("/assets/fonts/Notepen.woff") format('woff');
 }
 
 h1 {
     text-align: right;
     font-size: 3rem;
+}
+
+a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
 }
