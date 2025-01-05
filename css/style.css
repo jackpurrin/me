@@ -24,7 +24,7 @@ a {
 }
 
 .sidebar {
-    background-color: black;
+    background-image: url("/assets/images/sidebar.gif");
     width: 15%;
     height: 100vw;
     color: white;
