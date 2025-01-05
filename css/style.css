@@ -26,3 +26,7 @@ a {
     font-size: 2rem;
     text-decoration: none;
 }
+
+.sidebar {
+    background-color: white;
+}
