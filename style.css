@@ -16,13 +16,12 @@ body {
     margin: 0 auto;
 }
 
-.website {
+#wrapper > div {
     width: 15%;
     background-color: #185a83c3;
     border: dotted 3px;
     border-radius: 15px;
     padding-left: 0.5vw;
-    height: 250px;
 }
 
 h1 {
