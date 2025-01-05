@@ -1,7 +1,5 @@
 body {
-    background-image: url("/assets/images/scroller-bg.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("/assets/images/bg1.gif");
     font-family: notepad;
     color: white;
 }
