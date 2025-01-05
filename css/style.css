@@ -28,10 +28,3 @@ a {
     font-size: 2rem;
     text-decoration: none;
 }
-
-iframe {
-    float: right;
-    width: 85%;
-    min-height: 85vw;
-    border: none;
-}
