@@ -28,5 +28,8 @@ a {
 }
 
 .sidebar {
-    background-color: white;
+    background-color: black;
+    width: 15%;
+    height: 100vw;
+    color: white;
 }
