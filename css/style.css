@@ -36,6 +36,11 @@ a {
     padding: 10px;
 }
 
+.sidebar > a:hover {
+    color: grey;
+    font-size: 40px;
+}
+
 .sidebar > h2 {
     padding: 10px;
 }
