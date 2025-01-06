@@ -4,7 +4,6 @@ body {
     color: white;
     overflow: hidden;
     margin: 0;
-    padding: 0;
 }
 
 @font-face {
@@ -14,7 +13,7 @@ body {
 
 a {
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-decoration: none;
 }
 
@@ -23,7 +22,6 @@ a {
     width: 15%;
     height: 100vw;
     color: white;
-    padding: 10px 0px;
     float: left;
 }
 
@@ -33,12 +31,12 @@ a {
 
 .sidebar > a:hover {
     color: grey;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .sidebar > h2 {
     padding: 10px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 iframe {
