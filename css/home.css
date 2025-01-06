@@ -6,11 +6,6 @@ body {
     padding: 2rem;
 }
 
-@font-face {
-    font-family: "notepad";
-    src: url("/assets/fonts/Notepen.woff") format('woff');
-}
-
 .logo {
   display: block;
   margin-left: auto;
