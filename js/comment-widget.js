@@ -39,7 +39,7 @@ const s_maxLength = 500; // The max character length of a comment
 const s_maxLengthName = 16; // The max character length of a name
 const s_commentsOpen = true; // Change to false if you'd like to close your comment section site-wide (Turn it off on Google Forms too!)
 const s_collapsedReplies = true; // True for collapsed replies with a button, false for replies to display automatically
-const s_longTimestamp = false; // True for a date + time, false for just the date
+const s_longTimestamp = true; // True for a date + time, false for just the date
 let s_includeUrlParameters = false; // Makes new comment sections on pages with URL parameters when set to true (If you don't know what this does, leave it disabled)
 const s_fixRarebitIndexPage = false; // If using Rarebit, change to true to make the index page and page 1 of your webcomic have the same comment section
 
@@ -51,16 +51,16 @@ const s_filteredWords = [ // Add words to filter by putting them in quotes and s
 ]
 
 // Text - Change what messages/text appear on the form and in the comments section (Mostly self explanatory)
-const s_widgetTitle = 'Leave a comment!';
+const s_widgetTitle = 'Leave a note!';
 const s_nameFieldLabel = 'Name';
 const s_websiteFieldLabel = 'Website (Optional)';
 const s_textFieldLabel = '';
 const s_submitButtonLabel = 'Submit';
-const s_loadingText = 'Loading comments...';
-const s_noCommentsText = 'No comments yet!';
-const s_closedCommentsText = 'Comments are closed temporarily!';
-const s_websiteText = 'Website'; // The links to websites left by users on their comments
-const s_replyButtonText = 'Reply'; // The button for replying to someone
+const s_loadingText = 'Loading guestbook...';
+const s_noCommentsText = 'No guests yet!';
+const s_closedCommentsText = 'Guestbook are closed temporarily!';
+const s_websiteText = 'Visit their cyberspace!'; // The links to websites left by users on their comments
+const s_replyButtonText = 'Reply to note'; // The button for replying to someone
 const s_replyingText = 'Replying to'; // The text that displays while the user is typing a reply
 const s_expandRepliesText = 'Show Replies';
 const s_leftButtonText = '<<';
