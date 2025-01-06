@@ -68,8 +68,6 @@ body, html {
     font-family: 'Trebuchet MS';
     font-size: 14px;
     color: #211F24;
-    float: right;
-    width: 85%;
 }
 
 #c_widget button, #c_widget input[type=submit] {
