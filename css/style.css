@@ -41,19 +41,6 @@ a {
     font-size: 2.5rem;
 }
 
-.content {
-    width: 83%;
-    float: right;
-}
-
-.chat > iframe {
-    position: absolute;
-    height: 20vw;
-    width: 50vh;
-    left: 70vw;
-    top: 60vh;
-}
-
 iframe {
     float: right;
     border: none;
