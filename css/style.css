@@ -51,3 +51,9 @@ iframe {
   width: 60%;
   line-height: 2rem;
 }
+
+#bucket-webring {
+    width: 160% !important;
+    position: relative;
+    left: 58px;
+}
