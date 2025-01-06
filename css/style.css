@@ -56,3 +56,11 @@ p {
 h3 {
     font-size: 2.5rem;
 }
+
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
