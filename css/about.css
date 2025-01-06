@@ -1,0 +1,21 @@
+body {
+    font-family: Comic Sans MS;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 15px;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
