@@ -53,3 +53,10 @@ a {
     left: 70vw;
     top: 60vh;
 }
+
+iframe {
+    float: right;
+    border: none;
+    width: 85vw;
+    height: 100vh;
+}
