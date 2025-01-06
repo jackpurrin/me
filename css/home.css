@@ -1,5 +1,5 @@
 body {
-    font-family: notepad;
+    font-family: Comic Sans MS;
     color: white;
     overflow: hidden;
     margin: 0;
@@ -47,4 +47,18 @@ a {
     position: relative;
     top: -230px;
     left: 180px;
+    background-image: url("/assets/images/updates.jpg")
+}
+
+.updates > p {
+    font-size: 16px;
+}
+
+.updates > a {
+    font-size: 16px;
+}
+
+.updates > pre {
+    font-family: Comic Sans MS;
+    font-size: 16px;
 }
