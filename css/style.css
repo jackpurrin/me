@@ -36,3 +36,11 @@ a {
     width: 83%;
     float: right;
 }
+
+.chat > iframe {
+    position: absolute;
+    height: 20vw;
+    width: 50vh;
+    left: 70vw;
+    top: 60vh;
+}
