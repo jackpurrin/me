@@ -29,4 +29,10 @@ a {
     height: 100vw;
     color: white;
     padding: 10px 0px;
+    float: left;
+}
+
+.content {
+    width: 83%;
+    float: right;
 }
