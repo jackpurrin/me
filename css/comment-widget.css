@@ -52,13 +52,18 @@
         #c_rightButton - The right <button>
 */
 
+body, html {
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+   background-image: url("/assets/images/tiled-bg.gif")
+}
+
 /* Main */
 #c_widget {
     box-sizing: border-box;
-    height: 100%;
+    height: 100vw;
     padding: 15px;
-    overflow: auto;
-    background-image: url('bow-bg.gif'); /* F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
     background-attachment: fixed;
     font-family: 'Trebuchet MS';
     font-size: 14px;
