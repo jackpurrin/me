@@ -159,9 +159,10 @@ body, html {
 }
 .c-site {
     text-transform: lowercase;
-    color: #CE98FB;
+    color: black;
+    text-decoration: none;
 }
-.c-site:hover {color: #211F24;}
+.c-site:hover {color: green;}
 .c-timestamp {
     float: right;
     opacity: 60%;
