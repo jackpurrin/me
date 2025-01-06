@@ -50,5 +50,9 @@ iframe {
 
 
 p {
-    font-size: 32px;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2.5rem;
 }
