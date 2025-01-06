@@ -45,3 +45,9 @@ iframe {
     width: 85vw;
     height: 100vh;
 }
+
+.webrings {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
