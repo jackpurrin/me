@@ -62,3 +62,9 @@ a {
     font-family: Comic Sans MS;
     font-size: 16px;
 }
+
+.splash-text {
+    position: relative;
+    top: 50px;
+    left: 480px;
+}
