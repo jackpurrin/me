@@ -48,6 +48,6 @@ iframe {
 
 .webrings {
   margin: auto;
-  width: 50%;
-  padding: 10px;
+  width: 60%;
+  line-height: 2rem;
 }
