@@ -12,11 +12,6 @@ body {
     src: url("/assets/fonts/Notepen.woff") format('woff');
 }
 
-h1 {
-    text-align: right;
-    font-size: 3rem;
-}
-
 a {
     color: white;
     font-size: 2rem;
@@ -43,6 +38,7 @@ a {
 
 .sidebar > h2 {
     padding: 10px;
+    font-size: 2.5rem;
 }
 
 .content {
