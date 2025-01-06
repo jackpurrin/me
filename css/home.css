@@ -38,3 +38,13 @@ a {
     text-decoration: none;
 }
 
+.updates {
+    display: inline-block;
+    border: 5px solid black;
+    max-width: 20%;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    top: -230px;
+    left: 180px;
+}
