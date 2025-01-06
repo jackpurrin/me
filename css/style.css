@@ -32,6 +32,14 @@ a {
     float: left;
 }
 
+.sidebar > a {
+    padding: 10px;
+}
+
+.sidebar > h2 {
+    padding: 10px;
+}
+
 .content {
     width: 83%;
     float: right;
