@@ -1,7 +1,6 @@
 body {
     background-image: url("/assets/images/tiled-bg.gif");
     font-family: notepad;
-    overflow: hidden;
     margin: 0;
 }
 
