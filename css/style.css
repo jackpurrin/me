@@ -57,3 +57,11 @@ iframe {
     position: relative;
     left: 58px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+    font-size: 32px;
+}
