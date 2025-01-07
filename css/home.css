@@ -41,6 +41,38 @@ a {
     background-image: url("/assets/images/updates.gif")
 }
 
+@media screen and (max-width: 600px) {
+    .updates {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .poll {
+        position: relative;
+        top:  55vh;
+        left: -14vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        position: relative;
+        top: -10vh;
+        left: -30vw;
+    }
+    
+    .logo img {
+        width: 280%;
+    }
+    
+    .splash-text p {
+        position: relative;
+        top: -20vh;
+        left: -35vw;
+    }
+}
+
 .updates > p {
     font-size: 1rem;
 }
