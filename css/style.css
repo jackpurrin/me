@@ -80,3 +80,9 @@ nav, main {
     border: 1px solid darkblue;
     padding: 10px 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
