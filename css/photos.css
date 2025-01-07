@@ -11,3 +11,10 @@ img {
   width: 403px;
   height: 302px;
 }
+
+section {
+  padding: 15px;
+  border: 10px solid grey;
+  max-width: 30vw;
+  height: 23vw;
+}
