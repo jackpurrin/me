@@ -1,9 +1,6 @@
 body {
     font-family: Comic Sans MS;
     color: white;
-    margin: 0;
-    padding: 2rem;
-    font-size: 1rem;
 }
 
 img {
@@ -14,8 +11,7 @@ img {
 }
 
 section {
-  padding: 15px;
-  border: 10px solid grey;
+  padding: 10px;
+  border: 5px solid grey;
   max-width: 30vw;
-  height: 23vw;
 }
