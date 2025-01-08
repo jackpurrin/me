@@ -4,7 +4,13 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 2rem;
-    width: 90%;
+    width: 100%;
+}
+
+a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 .logo {
@@ -16,30 +22,24 @@ body {
 
 .poll {
     position: relative;
-    top: 15vh;
+    top: 25vh;
+    left: -2vw;
     float: right;
 }
 
-p {
-    font-size: 1rem;
-}
-
-a {
-    color: white;
-    font-size: 1rem;
-    text-decoration: none;
-}
-
-.updates {
-    display: inline-block;
-    border: 5px solid grey;
-    max-width: 20%;
-    margin: 0 auto;
+.info {
+    text-align: center;
     float: right;
     position: relative;
-    top: -15vh;
-    left: 10vw;
-    background-image: url("/assets/images/updates.gif")
+    top: -5vh;
+    left: 8vw;
+    background-color: grey;
+}
+
+.splash-text {
+    position: relative;
+    top: 10vh;
+    left: 37vw;
 }
 
 @media screen and (max-width: 600px) {
@@ -72,23 +72,4 @@ a {
         top: -20vh;
         left: -35vw;
     }
-}
-
-.updates > p {
-    font-size: 1rem;
-}
-
-.updates > a {
-    font-size: 1rem;
-}
-
-.updates > pre {
-    font-family: Comic Sans MS;
-    font-size: 1rem;
-}
-
-.splash-text {
-    position: relative;
-    top: 10vh;
-    left: 37vw;
 }
