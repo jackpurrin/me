@@ -4,13 +4,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 2rem;
-    width: 100%;
-}
-
-a {
-    color: white;
-    font-size: 1rem;
-    text-decoration: none;
+    width: 90%;
 }
 
 .logo {
@@ -22,24 +16,30 @@ a {
 
 .poll {
     position: relative;
-    top: 25vh;
-    left: -2vw;
+    top: 15vh;
     float: right;
 }
 
-.info {
-    text-align: center;
-    float: right;
-    position: relative;
-    top: -5vh;
-    left: 8vw;
-    background-color: grey;
+p {
+    font-size: 1rem;
 }
 
-.splash-text {
+a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.updates {
+    display: inline-block;
+    border: 5px solid grey;
+    max-width: 20%;
+    margin: 0 auto;
+    float: right;
     position: relative;
-    top: 10vh;
-    left: 37vw;
+    top: -15vh;
+    left: 10vw;
+    background-image: url("/assets/images/updates.gif")
 }
 
 @media screen and (max-width: 600px) {
@@ -72,4 +72,44 @@ a {
         top: -20vh;
         left: -35vw;
     }
+}
+
+.updates > p {
+    font-size: 1rem;
+}
+
+.updates > a {
+    font-size: 1rem;
+}
+
+.updates > pre {
+    font-family: Comic Sans MS;
+    font-size: 1rem;
+}
+
+.splash-text {
+    position: relative;
+    top: 10vh;
+    left: 37vw;
+}
+
+.gif-of-the-week {
+    background-color: grey;
+    max-width: 15vw;
+    margin: 0 auto;
+    position: relative;
+    top: 30vh;
+    left: -40vw;
+}
+
+.gif-of-the-week img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.gif-of-the-week h1 {
+    text-align: center;
+    font-size: 1.5rem;
 }
