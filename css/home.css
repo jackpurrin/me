@@ -4,6 +4,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 2rem;
+    width: 90%;
 }
 
 .logo {
