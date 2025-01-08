@@ -1,0 +1,10 @@
+.webrings {
+  margin: auto;
+  width: 50%;
+}
+
+#bucket-webring {
+    width: 160% !important;
+    position: relative;
+    left: 58px;
+}
