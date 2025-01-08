@@ -6,14 +6,6 @@
     </head>
 
     <body>
-        <div class="mood">
-            <a href="https://www.imood.com/users/jackpurrin">
-                i'm currently feeling
-                <img src="https://moods.imood.com/display/uname-jackpurrin/imood.gif" alt="The current mood of jackpurrin at www.imood.com" border="0" />
-                right now.
-            </a>
-        </div>
-
         <div class="poll">
             <form method="post" action="https://poll.pollcode.com/75953167">
                 <div
@@ -50,17 +42,15 @@
             <img src="assets/images/logo.png" />
         </div>
 
-        <div class="updates">
-            <script>
-                fetch("https://api.github.com/repos/jackpurrin/jackpurrin.me/commits?per_page=1")
-                    .then((res) => res.json())
-                    .then((res) => {
-                        document.getElementById("message").innerHTML = res[0].commit.message;
-                    });
-            </script>
-            <p>latest update</p>
-            <pre id="message">Loading</pre>
-            <a href="https://github.com/jackpurrin/jackpurrin.me/commits/main/">view more at github</a>
+        <div class="info">
+            <h1>info</h1>
+            <p>last update</p>
+            <p>Janury 7th 2025</p>
+            <a href="https://www.imood.com/users/jackpurrin">
+            i'm currently feeling
+            <img src="https://moods.imood.com/display/uname-jackpurrin/imood.gif" alt="The current mood of jackpurrin at www.imood.com" border="0" />
+            right now.
+            </a>
         </div>
 
         <div class="splash-text">
