@@ -1,5 +1,7 @@
 body {
     background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: notepad;
     margin: 0;
 }
