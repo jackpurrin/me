@@ -65,3 +65,7 @@ nav, main {
   margin: auto;
   width: 50%;
 }
+
+p {
+    font-size: 28px;
+}
