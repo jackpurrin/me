@@ -2,7 +2,6 @@ body {
     background-image: url("/assets/images/tiled-bg.gif");
     font-family: notepad;
     margin: 0;
-    overflow-x: hidden;
 }
 
 @font-face {
@@ -60,4 +59,9 @@ nav, main {
     .wrapper {
         flex-direction: column;
     }
+}
+
+.webrings {
+  margin: auto;
+  width: 50%;
 }
