@@ -1,0 +1,94 @@
+body {
+    font-family: Comic Sans MS;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 2rem;
+    width: 90%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35vw;
+}
+
+.poll {
+    position: relative;
+    top: 15vh;
+    float: right;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.updates {
+    display: inline-block;
+    border: 5px solid grey;
+    max-width: 20%;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    top: -15vh;
+    left: 10vw;
+    background-image: url("/assets/images/updates.gif")
+}
+
+@media screen and (max-width: 600px) {
+    .updates {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .poll {
+        position: relative;
+        top:  55vh;
+        left: -14vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        position: relative;
+        top: -10vh;
+        left: -30vw;
+    }
+    
+    .logo img {
+        width: 280%;
+    }
+    
+    .splash-text p {
+        position: relative;
+        top: -20vh;
+        left: -35vw;
+    }
+}
+
+.updates > p {
+    font-size: 1rem;
+}
+
+.updates > a {
+    font-size: 1rem;
+}
+
+.updates > pre {
+    font-family: Comic Sans MS;
+    font-size: 1rem;
+}
+
+.splash-text {
+    position: relative;
+    top: 10vh;
+    left: 37vw;
+}
