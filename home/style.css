@@ -30,18 +30,6 @@ a {
     text-decoration: none;
 }
 
-.updates {
-    display: inline-block;
-    border: 5px solid grey;
-    max-width: 20%;
-    margin: 0 auto;
-    float: right;
-    position: relative;
-    top: -15vh;
-    left: 10vw;
-    background-image: url("/assets/images/updates.gif")
-}
-
 @media screen and (max-width: 600px) {
     .updates {
         display: none;
@@ -74,27 +62,14 @@ a {
     }
 }
 
-.updates > p {
-    font-size: 1rem;
-}
-
-.updates > a {
-    font-size: 1rem;
-}
-
-.updates > pre {
-    font-family: Comic Sans MS;
-    font-size: 1rem;
-}
-
 .splash-text {
     position: relative;
-    top: 10vh;
-    left: 37vw;
+    top: -30vh;
+    left: 34vw;
 }
 
 .gif-of-the-week {
-    background-color: grey;
+    background-color: rgba(110, 99, 144, 0.8);
     max-width: 15vw;
     margin: 0 auto;
     position: relative;
