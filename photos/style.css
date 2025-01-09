@@ -12,6 +12,6 @@ img {
 
 section {
   padding: 10px;
-  background-color: grey;
+  background-color: rgba(110, 99, 144, 0.8);
   max-width: 30vw;
 }
