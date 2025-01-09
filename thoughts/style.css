@@ -6,3 +6,12 @@ body {
     padding: 2rem;
     width: 90%;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-color: grey;
+}
