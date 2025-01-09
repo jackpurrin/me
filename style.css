@@ -2,13 +2,8 @@ body {
     background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: notepad;
+    font-family: Comic Sans MS;
     margin: 0;
-}
-
-@font-face {
-    font-family: "notepad";
-    src: url("Notepen.woff") format('woff');
 }
 
 a {
