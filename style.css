@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    font-size: 1.1rem;
+    color: grey;
+}
+
 ul {
     list-style: none;
     margin: 0;
