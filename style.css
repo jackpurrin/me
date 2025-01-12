@@ -85,3 +85,7 @@ article {
     width: 82%;
     float: right;
 }
+
+.hits {
+    display: block ruby;
+}
