@@ -5,7 +5,10 @@ body {
     padding: 10px;
     color: white;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    cursor: url('images/cursor.png'), url('images/cursor.ico'), auto;	
+}
+
+html, body {
+        cursor: url('images/cursor.png'), auto;	
 }
 
 img {
