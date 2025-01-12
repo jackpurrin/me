@@ -11,26 +11,9 @@ html, body {
         cursor: url('images/cursor.png'), auto;	
 }
 
-@media screen and (max-width: 600px) {
-    ul {
-        flex-direction: column;
-    }
-} 
-
 img {
     max-width: 100%;
     height: auto;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    font-size: 1.1rem;
-    color: grey;
-    cursor: url('images/hover.png'), auto;	
 }
 
 ul {
@@ -44,6 +27,23 @@ ul {
 
 li {
     padding: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+} 
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.1rem;
+    color: grey;
+    cursor: url('images/hover.png'), auto;	
 }
 
 nav {
