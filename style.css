@@ -11,6 +11,12 @@ html, body {
         cursor: url('images/cursor.png'), auto;	
 }
 
+@media screen and (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+} 
+
 img {
     max-width: 100%;
     height: auto;
@@ -44,14 +50,13 @@ nav {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-    ul {
-        flex-direction: column;
-    }
-} 
-
 div {
     display: inline-block;
+}
+
+article {
+    width: 82%;
+    float: right;
 }
 
 .sidebar-1 {
@@ -78,17 +83,6 @@ div {
     box-shadow: 0px 0px 5px #888;
     background-image: url('https://images.boardhost.com/bg/clouds.gif');
     float: left;
-}
-
-.pet {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-article {
-    width: 82%;
-    float: right;
 }
 
 .hits {
