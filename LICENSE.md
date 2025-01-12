@@ -1,6 +1,6 @@
 # 🏳️‍🌈 Opinionated Queer License v1.2
 
-© Copyright {Licensor}
+© Copyright [jackpurrin](jackpurrin.me)
 
 ## Permissions
 
