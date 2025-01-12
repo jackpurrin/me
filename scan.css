@@ -2,9 +2,9 @@
 .scanlines:after {
     content: "";
     position: absolute;
+    
 }
 .scanlines:before {
-    z-index: 2147483649;
     background: rgba(0, 0, 0, 0.3);
     opacity: 0.75;
     animation: scanline 6s linear infinite;
@@ -21,9 +21,9 @@
     );
     background-size: 100% 4px;
     animation: scanlines 1s steps(60) infinite;
+    pointer-events: none;
 }
 
-/* ANIMATE UNIQUE SCANLINE */
 @keyframes scanline {
     0% {
         transform: translate3d(0, 200000%, 0);
