@@ -24,6 +24,7 @@ a {
 a:hover {
     font-size: 1.1rem;
     color: grey;
+    cursor: url('images/cursor.png'), auto;	
 }
 
 ul {
