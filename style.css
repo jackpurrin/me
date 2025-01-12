@@ -4,6 +4,8 @@ body {
     background-size: cover;
     font-family: Comic Sans MS;
     margin: 0;
+    padding: 0;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=111497);
 }
 
 a {
