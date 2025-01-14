@@ -67,6 +67,12 @@ article {
     float: right;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .sidebar-1 {
     background-color: white;
     float: left;
