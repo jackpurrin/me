@@ -102,3 +102,12 @@ footer {
 .hits {
     display: block ruby;
 }
+
+.trans {
+    float: right;
+    display: block;
+}
+
+.noai {
+    float: left;
+}
