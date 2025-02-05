@@ -1,86 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>cyberspace</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="stylesheet" type="text/css" href="scan.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>jackpurrin's cyberspace</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/7.css" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="js/tabs.js"></script>
+        <script type="text/javascript" src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
     </head>
+
     <body>
-        <div class="scanlines">
-            <header>
-                <img src="images/logo.png" />
-            </header>
-
-            <nav>
-                <ul>
-                    <li><a href="about">about</a></li>
-                    <li><a href="links">my links</a></li>
-                    <li><a href="https://blogspace.jackpurrin.me/">my thoughts</a></li>
-                    <li><a href="photos">photos</a></li>
-                    <li><a href="other-websites">other cool websites</a></li>
-                    <li><a href="https://jackpurrin.atabook.org/">guestbook</a></li>
-                    <li><iframe src="//incr.easrng.net/badge?key=jackpurrin" style="background: url(//incr.easrng.net/bg.gif);" title="increment badge" width="88" height="31" frameborder="0"></iframe></li>
-                </ul>
-            </nav>
-
-            <main>
-                <div class="poll">
-                    <form method="post" action="https://poll.pollcode.com/75953167">
-                        <div>
-                            <div style="padding: 2px 0px 4px 2px;"><strong>what is your opinion on clouds</strong></div>
-                            <input type="radio" name="answer" value="1" id="answer759531671" style="float: left;" /><label for="answer759531671" style="float: left; width: 150px;">they're cool</label>
-                            <div style="clear: both; height: 2px;"></div>
-                            <input type="radio" name="answer" value="2" id="answer759531672" style="float: left;" /><label for="answer759531672" style="float: left; width: 150px;">they're pretty</label>
-                            <div style="clear: both; height: 2px;"></div>
-                            <input type="radio" name="answer" value="3" id="answer759531673" style="float: left;" /><label for="answer759531673" style="float: left; width: 150px;">i only like them when it cloudy and rainy</label>
-                            <div style="clear: both; height: 2px;"></div>
-                            <input type="radio" name="answer" value="4" id="answer759531674" style="float: left;" /><label for="answer759531674" style="float: left; width: 150px;">i've never been outside</label>
-                            <div style="clear: both; height: 2px;"></div>
-                            <input type="radio" name="answer" value="5" id="answer759531675" style="float: left;" /><label for="answer759531675" style="float: left; width: 150px;">what are clouds</label>
-                            <div style="clear: both; height: 2px;"></div>
-                            <div align="center" style="padding: 3px;"><input type="submit" value=" Vote " />&nbsp;<input type="submit" name="view" value=" View " /></div>
-                            <div align="right" style="font-size: 10px;">pollcode.com <a href="https://pollcode.com/">free polls</a></div>
-                        </div>
-                    </form>
+        <div class="window glass active" style="max-width: 100%; margin: 0 1.5em;">
+            <div class="title-bar">
+                <div class="title-bar-text">cyberspace</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
                 </div>
-
-                <article>
-                    <h1>welcome to my cyberspace!</h1>
-                    <p>
+            </div>
+            <div class="window-body has-space">
+                <menu role="tablist" aria-label="Window with Tabs">
+                    <button role="tab" aria-controls="home" aria-selected="true">home</button>
+                    <button role="tab" aria-controls="about" aria-selected="false">about</button>
+                    <button role="tab" aria-controls="links" aria-selected="false">my links</button>
+                    <button role="tab" aria-controls="thoughts" aria-selected="false" type="button" onclick="location.href='https://b.jackpurrin.me/'">my thoughts</button>
+                    <button role="tab" aria-controls="photos" aria-selected="false" type="button" onclick="location.href='https://p.jackpurrin.me/'">photos</button>
+                    <button role="tab" aria-controls="chat" aria-selected="false">chat room</button>
+                    <button role="tab" aria-controls="websites" aria-selected="false">other cool websites</button>
+                </menu>
+                <article role="tabpanel" id="home">
+                    <img src="/assets/img/logo.png" />
+                    <h5>
                         my name is jackpurrin, and this website is just my corner of the internet. i mostly put personal stuff here, but there is some cool stuff on my website you can check out! poke around, open doors, and explore
-                        everything on this website! i do not care! oh and make sure to leave me a note on the <strong><a href="https://jackpurrin.atabook.org/">guestbook</a></strong>!
-                    </p>
-                    <div class="hits">
-                        <p>This website has been opened:</p>
-                        <script type="text/javascript" src="https://counter.websiteout.com/js/6/0/0/1"></script>
-                        <p>times.</p>
-                    </div>
+                        everything on this website! i do not care! oh and make sure to check out the <strong><a href="https://blogspace.jackpurrin.me/">blog</a></strong>!
+                    </h5>
+                    <p>This website has been opened:</p>
+                    <script type="text/javascript" src="https://counter.websiteout.com/js/6/0/0/1"></script>
+                    <p>times.</p>
                 </article>
-            </main>
-            <footer>
-                                <div class="noai">
-                    <map name="noaimini13b">
-                        <area href="https://baccyflap.com/noai" shape="poly" coords="0,2,0,36,40,36,40,60,134,60,134,36,152,36,152,2" target="_blank" alt="no ai webring" title="no ai webring" />
-                        <area href="https://baccyflap.com/noai/?prv&s=jac" target="_top" shape="rect" coords="4,42,36,58" alt="previous" title="previous" />
-                        <area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="158,10,170,30" alt="random" title="random" />
-                        <area href="https://baccyflap.com/noai/?nxt&s=jac" target="_top" shape="rect" coords="138,42,170,58" alt="next" title="next" />
-                    </map>
-                    <img
-                        style="width: 176px; image-rendering: pixelated;"
-                        usemap="#noaimini13b"
-                        src="https://baccyflap.com/noai/miniwidget13.gif"
-                        alt="a black field showing the words THE NO AI WEBRING in gothic lettering, with the word NO in blood red. there are two slender arrows pointing left and right and one gray question mark (also gothic)"
-                    />
-                </div>
-                <script type="text/javascript" src="https://rainmirage.art/webring/onionring-variables.js"></script>
-                <script type="text/javascript" src="https://rainmirage.art/webring/onionring-widget.js"></script>
-                <div class="trans">
-                    <script src="https://transring.neocities.org/ring.js"></script>
-                </div>
-                <iframe id="bucket-webring" style="width: 100%; height: 3rem; border: none;" src="https://webring.bucketfish.me/embed.html?name=jackpurrin’s cyberspace"></iframe>
-            </footer>
+                <article role="tabpanel" id="about" hidden>
+                    <h3>about</h3>
+                    <p>
+                        this website this website actually started in 2023 when i was in 8th grade. i made this website under the domain jackpurrin.rf.gd (which is now down) and i hosted it using infinityfree. i just had this website so me
+                        and my friends had a place to play games and chat to each other with. i had build my own chat room, but as the year went on it became useless. besides that, my website was great and we all had a great time! this year
+                        in my 9th grade year, github gave me plenty of benifits fot being a high school student and it also came with a free .me domain. by that time, this website became less about me and my freinds and more about what i
+                        wanted it to be. before it looked quite barren, then it became more "modern" and now i want it to have an early internet astetic. like the geocities aesthetic! i just love this aesthetic and that's what my website is
+                        all about.
+                    </p>
+                </article>
+                <article role="tabpanel" id="links" hidden>
+                    <h3>my links</h3>
+                    <p><a href="mailto:me@jackpurrin.me">email</a></p>
+
+                    <p><a href="https://pintrest.com/jackpurrin">pintrest</a></p>
+
+                    <p><a href="https://steamcommunity.com/profiles/jackpurrin">steam</a></p>
+
+                    <p><a href="https://open.spotify.com/user/yhqxs1v6x0ew63x7xhzwsr78d">spotify</a></p>
+
+                    <p><a href="https://www.youtube.com/@jackpurrin">youtube</a></p>
+
+                    <p><a href="https://twitch.tv/jackpurrin/">twitch</a></p>
+
+                    <p><a href="https://github.com/hackpurrin">github</a></p>
+                </article>
+
+                <article role="tabpanel" id="websites" hidden>
+                    <h4>other cool websites</h4>
+                    <div class="noai">
+                        <map name="noaimini13b">
+                            <area href="https://baccyflap.com/noai" shape="poly" coords="0,2,0,36,40,36,40,60,134,60,134,36,152,36,152,2" target="_blank" alt="no ai webring" title="no ai webring" />
+                            <area href="https://baccyflap.com/noai/?prv&s=jac" target="_top" shape="rect" coords="4,42,36,58" alt="previous" title="previous" />
+                            <area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="158,10,170,30" alt="random" title="random" />
+                            <area href="https://baccyflap.com/noai/?nxt&s=jac" target="_top" shape="rect" coords="138,42,170,58" alt="next" title="next" />
+                        </map>
+                        <img
+                            style="width: 176px; image-rendering: pixelated;"
+                            usemap="#noaimini13b"
+                            src="https://baccyflap.com/noai/miniwidget13.gif"
+                            alt="a black field showing the words THE NO AI WEBRING in gothic lettering, with the word NO in blood red. there are two slender arrows pointing left and right and one gray question mark (also gothic)"
+                        />
+                    </div>
+                    <script type="text/javascript" src="https://rainmirage.art/webring/onionring-variables.js"></script>
+                    <script type="text/javascript" src="https://rainmirage.art/webring/onionring-widget.js"></script>
+                    <div class="trans">
+                        <script src="https://transring.neocities.org/ring.js"></script>
+                    </div>
+                    <iframe id="bucket-webring" style="width: 100%; height: 3rem; border: none;" src="https://webring.bucketfish.me/embed.html?name=jackpurrin’s cyberspace"></iframe>
+                </article>
+
+                <article role="tabpanel" id="chat" hidden>
+                    <div class="members-count">JS Not Loaded</div>
+                    <div class="members-list">JS Not Loaded</div>
+                    <div class="messages"></div>
+                    <form class="message-form" onsubmit="return false;">
+                        <input class="message-form__input" placeholder="Type a message.." type="text" />
+                        <input class="message-form__button" value="Send" type="submit" />
+                    </form>
+                    <script src="js/chat.js"></script>
+                </article>
+            </div>
         </div>
     </body>
 </html>
