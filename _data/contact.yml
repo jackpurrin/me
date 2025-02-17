@@ -1,0 +1,1 @@
+[{type: github, icon: fab fa-github}, {type: pintrest, icon: fa-brands fa-pinterest, url: 'https://www.pinterest.com/jackpurrin/'}, {type: email, icon: fas fa-envelope, noblank: true}, {type: rss, icon: fas fa-rss, noblank: true}]
