@@ -5,7 +5,7 @@ order: 4
 
 i'm a high school student who like to program and write stuff. i've made many websites and other things. 
 
-i don't quite know my sexuality and things yet, [but i start dating this girl!!](https://blogspace.jackpurrin.me/posts/dating/) 
+i don't quite know my sexuality and things yet, [but i start dating this girl!!](https://jackpurrin.me/posts/dating/) 
 
 i play a lot of minecraft and half-life but my free time is usually spent on github, or random websites such as uquiz. 
 
