@@ -1,1 +1,1 @@
-[{type: github, icon: fab fa-github}, {type: twitch, icon: fa-brands fa-twitch, link: https://twitch.tv/jackpurrin/}, {type: email, icon: fas fa-envelope, noblank: true}, {type: rss, icon: fas fa-rss, noblank: true}]
+[{type: github, icon: fab fa-github}, {type: twitch, icon: fab fa-twitch, link: https://twitch.tv/jackpurrin/}, {type: email, icon: fas fa-envelope, noblank: true}, {type: rss, icon: fas fa-rss, noblank: true}]
