@@ -6,6 +6,7 @@
 html {
     color: var(--txt-color);
     background-color: var(--bkg-color);
+    font-family: monospace;
 }
 
 a {
@@ -13,20 +14,21 @@ a {
     color: var(--txt-color);
 }
 
-a:hover {
-    font-size: 1.1rem;
+img {
+    max-width: 100%;
 }
 
-#fullpage {
-    display: none;
-    position: absolute;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat no-repeat;
-    background-position: center center;
-    background-color: black;
-  }
+i {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.title {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-decoration: none;
+}
