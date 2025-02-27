@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
 	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
 		<title>jackpurrin's website</title>
 		<link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/image.js"></script>
 	</head>
 	
-	<body>
+	<body onload="getPics()">
+        <div class="container">
 		<h1 href="/">jackpurrin's website</h1>
 		<h2>weirdcore / liminal images</h2>
 
 		<audio controls autoplay loop>
 			<source src="assets/audio/delay.mp3" type="audio/mpeg">
 		</audio>
+
         <br />
-        <img height="428px" src="assets/images/angel.jpg">
-        <img height="428px" src="assets/images/death.jpg">
-        <img height="428px" src="assets/images/exit.jpg">
-        <img height="428px" src="assets/images/help.jpg">
-        <img height="428px" src="assets/images/him.jpg">
-        <img height="428px" src="assets/images/house.jpg">
-        <img height="428px" src="assets/images/mall.jpg">
-        <img height="428px" src="assets/images/peace.jpg">
-        <img height="428px" src="assets/images/mushroom.jpg">
-        <img height="428px" src="assets/images/pool.jpg">
-        <img height="428px" src="assets/images/room.jpg">
-        <img height="428px" src="assets/images/school.jpg">
+        <div class="gallery">
+            <img id="container" height="430px" src="assets/images/angel.jpg">
+            <img height="430px" src="assets/images/death.jpg">
+            <img height="430px" src="assets/images/exit.jpg">
+            <img height="430px" src="assets/images/help.jpg">
+            <img height="430px" src="assets/images/him.jpg">
+            <img height="430px" src="assets/images/house.jpg">
+            <img height="430px" src="assets/images/mall.jpg">
+            <img height="430px" src="assets/images/peace.jpg">
+            <img height="430px" src="assets/images/mushroom.jpg">
+            <img height="430px" src="assets/images/pool.jpg">
+            <img height="430px" src="assets/images/room.jpg">
+            <img height="430px" src="assets/images/school.jpg">
+        </div>
+        </div>
+        <div id="fullpage" onclick="this.style.display='none';"></div>
 	</body>
 </html>
