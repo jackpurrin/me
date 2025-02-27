@@ -7,3 +7,12 @@ html {
     color: var(--txt-color);
     background-color: var(--bkg-color);
 }
+
+a {
+    text-decoration: underline;
+    color: var(--txt-color);
+}
+
+a:hover {
+    font-size: 1.1rem;
+}
