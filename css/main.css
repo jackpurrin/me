@@ -1,0 +1,9 @@
+:root {
+    --bkg-color: #222;
+    --txt-color: white;
+}
+
+html {
+    color: var(--txt-color);
+    background-color: var(--bkg-color);
+}
