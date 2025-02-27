@@ -1,0 +1,12 @@
+html {
+    color: var(--txt-color);
+    background-color: var(--bkg-color);
+    font-family: monospace;
+    text-align: center;
+    width: var(--web-width);
+    padding-left:  calc(var(--web-width) * 0.5);
+}
+
+img {
+    max-width: 100%;
+}

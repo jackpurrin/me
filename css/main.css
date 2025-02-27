@@ -1,21 +1,17 @@
-:root {
-    --bkg-color: #222;
-    --txt-color: white;
-}
+@import url('config.css');
 
 html {
     color: var(--txt-color);
     background-color: var(--bkg-color);
     font-family: monospace;
+    text-align: center;
+    width: var(--web-width);
+    padding-left:  calc(var(--web-width) * 0.5);
 }
 
 a {
     text-decoration: underline;
     color: var(--txt-color);
-}
-
-img {
-    max-width: 100%;
 }
 
 i {
