@@ -1,11 +1,5 @@
-html {
-    color: var(--txt-color);
-    background-color: var(--bkg-color);
-    font-family: monospace;
-    text-align: center;
-    width: var(--web-width);
-    padding-left:  calc(var(--web-width) * 0.5);
-}
+@import url('main.css');
+
 
 .main {
     margin: 0;

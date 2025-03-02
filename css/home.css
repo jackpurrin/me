@@ -1,3 +1,5 @@
+@import url('main.css');
+
 .title {
     display: block;
     font-size: 2em;
@@ -11,7 +13,7 @@
 
 .blink {
     animation: blinker 1.5s linear infinite;
-    color: red;
+    color: var(--red);
     font-family: sans-serif;
 }
 

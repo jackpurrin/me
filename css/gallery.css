@@ -1,3 +1,5 @@
+@import url('main.css');
+
 html {
     color: var(--txt-color);
     background-color: var(--bkg-color);

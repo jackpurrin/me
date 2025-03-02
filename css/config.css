@@ -1,5 +1,8 @@
 :root {
     --bkg-color: #382d2c;
     --txt-color: #ffdab9;
+    --red: red;
+    --green: green;
+    --blue: blue;
     --web-width: 50%;
 }
