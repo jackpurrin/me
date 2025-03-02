@@ -28,34 +28,6 @@ i {
     font-weight: bold;
     text-decoration: none;
 }
-
-            /* user styles */
-
-            /* styles are what change the color and sizes of stuff on your site. */
-
-            /* these are variables that are being used in the code
-    these tended to confuse some people, so I only kept 
-    the images as variables */
-
-    :root {
-        --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
-        --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
-
-        /* colors */
-        --content: #43256E;
-    }
-
-    /* if you have the URL of a font, you can set it below */
-    /* feel free to delete this if it's not your vibe */
-
-    /* this seems like a lot for just one font and I would have to agree 
-but I wanted to include an example of how to include a custom font.
-If you download a font file you can upload it onto your Neocities
-and then link it! Many fonts have separate files for each style
-(bold, italic, etc. T_T) which is why there are so many!
-
-*/
-
     @font-face {
         font-family: Nunito;
         src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
