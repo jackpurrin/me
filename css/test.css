@@ -32,6 +32,7 @@ body {
     background-image: var(--header-image);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center; 
 }
 
 #flex {
