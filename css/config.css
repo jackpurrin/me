@@ -5,6 +5,8 @@
     --green: #95D2B3;
     --blue: #89A8B2;
     --web-width: 50%;
+    --header-image: url("/assets/images/webspace.png");
+    --body-bg-image: #382d2c;
 }
 
 @font-face {

@@ -1,7 +1,4 @@
-:root {
-    --header-image: url("/assets/images/webspace.png");
-    --body-bg-image: #382d2c;
-}
+@import url(config.css);
 
 body {
     font-family: serif;
