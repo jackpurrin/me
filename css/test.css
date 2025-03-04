@@ -1,5 +1,5 @@
 :root {
-    --header-image: url("");
+    --header-image: url("/assets/images/webspacae.png");
     --body-bg-image: #382d2c;
 }
 
@@ -61,7 +61,8 @@ main {
 
 footer {
     background-color: #221c1b;
-    width: 100%;
+    margin: auto;
+    width: 50%;
     height: 40px;
     padding: 10px;
     text-align: center;
@@ -73,6 +74,10 @@ h1, h2, h3 {
 
 h1 {
     font-size: 25px;
+}
+
+img {
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 800px) {
