@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+        <title>jackpurrin's website</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩷</text></svg>" />
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header" style="margin-bottom: 10px; height: 201px;"></div>
+            <div id="headerArea"></div>
+
+            <div id="flex">
+                <aside id="leftSidebar" style="margin-right: 10px;">
+                    <h2>updates</h2>
+                    <script src="js/get-commit.js"></script>
+                    <a id="commitLink" href="#" target="_blank" style="text-decoration: none;">
+                        <div>
+                            <div>
+                                <p id="shortHash"></p>
+                                <p id="commitLatest">
+                                    <br />
+                                    fetching!! (or its broken idk)
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <img class="rss" src="assets/images/rss.svg"/>
+                    <a href="https://github.com/jackpurrin/jackpurrin-me/commits/master.atom">subscribe via atom</a>
+                    <h2>piclog</h2>
+                    <a href="https://piclog.blue/profile.php?id=905"><img src="https://piclog.blue/latest.php?id=905" /></a>
+                    <img class="rss" src="assets/images/rss.svg"/>
+                    <a href="https://piclog.blue/user-feed.php?id=905">subscribe via rss</a>
+                </aside>
+                <main>
+                    <h1>other cool websites</h1>
+                </main>
+                <aside id="rightSidebar" style="margin-left: 10px;">
+                    <h1>my stuff</h1>
+                    <h2><a href="about">about</a></h2>
+                    <h2><a href="music">music</a></h2>
+
+                    <h1>stuff for you</h1>
+                    <h2><a href="music">music</a></h2>
+                    <h2><a href="games">games</a></h2>
+                    <h2><a href="gallery">images</a></h2>
+                    <h2><a href="sites">other cool websites</a></h2>
+
+                    <h1>other website things</h1>
+                    <h2><a href="https://jackpurrin.atabook.com/">guestbook</a></h2>
+                </aside>
+            </div>
+
+            <footer id="footer" style="margin-top: 10px;">
+                <a href="https://oql.avris.it/license?c=jackpurrin%7Chttps%3A%2F%2Fjackpurrin.me%2F"><p>copyright © 2025 jackpurrin's webspace. all rights reserved.</p></a>
+            </footer>
+        </div>
+    </body>
+</html>
