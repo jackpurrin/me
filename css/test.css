@@ -62,7 +62,7 @@ main {
 footer {
     background-color: #221c1b;
     margin: auto;
-    width: 50%;
+    width: 60%;
     padding: 10px;
     text-align: center;
 }
@@ -100,4 +100,14 @@ img {
     #rightSidebar {
         order: 3;
     }
+}
+
+.rss {
+    filter: invert(1);
+    vertical-align: middle;
+
+}
+
+.rss:hover {
+    filter: invert(.5);
 }
