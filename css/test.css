@@ -31,6 +31,7 @@ body {
     height: 150px;
     background-image: var(--header-image);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #flex {
