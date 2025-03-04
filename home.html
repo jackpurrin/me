@@ -4,29 +4,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
         <title>jackpurrin's website</title>
-        <link rel="stylesheet" href="css/home.css" />
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩷</text></svg>">    </head>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩷</text></svg>" />
     </head>
 
     <body>
-        <h1>jackpurrin's website</h1>
-        <marquee class="blink" width="60%" direction="right">
-            this website is under lots of construction, always press ctrl+shift+r to reload the page and fully reset it so you can get the latest stuff.
-        </marquee>
-        <h3><a href="gallery">in the meantime, wanna check out some weirdcore / liminal spaces?</a></h3>
-        <h3><a href="https://jackpurrin.atabook.org/">check out my guestbook!</a></h3>
-        <h3><a href="https://jackpurrin.bearblog.dev/">i've got a bearblog!</a></h3>
+        <div id="container">
+            <div id="header" style="margin-bottom: 10px; height: 201px;"></div>
+            <div id="headerArea"></div>
 
-        <p><i>"sometimes i just wanna drop dead because the internal pain just feels like never ending bleeding."</i></p>
-        <p><i>"i don't belong here."</i></p>
-        <p><i>"so why reside when you could be somewhere else doing something else?"</i></p>
-        <p><i>"i don't know, this place is just so peaceful.."</i></p>
-        <p><i>"help me get out of this loop, or release me from this never ending hell."</i></p>
-        <p><i>"i can't."</i></p>
-        <br />
-        <h3>piclog</h3>
-        <a href="https://piclog.blue/profile.php?id=905"><img src="https://piclog.blue/latest.php?id=905"></a>
-        <br />
-        <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=40262806&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=40262806&main=1" /></noscript>
+            <div id="flex">
+                <aside id="leftSidebar" style="margin-right: 10px;">
+                    <h2>updates</h2>
+                    <script src="js/get-commit.js"></script>
+                    <a id="commitLink" href="#" target="_blank" style="text-decoration: none;">
+                        <div>
+                            <div>
+                                <p id="shortHash"></p>
+                                <p id="commitLatest">
+                                    <br />
+                                    fetching!! (or its broken idk)
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <img class="rss" src="assets/images/rss.svg"/>
+                    <a href="https://github.com/jackpurrin/jackpurrin-me/commits/master.atom">subscribe via atom</a>
+                    <h2>piclog</h2>
+                    <a href="https://piclog.blue/profile.php?id=905"><img src="https://piclog.blue/latest.php?id=905" /></a>
+                </aside>
+                <main>
+                    <h1>hi my name is jackpurrin!</h1>
+                    <p>this is just a fun little website i made because i was bored and wanted to.</p>
+                </main>
+                <aside id="rightSidebar" style="margin-left: 10px;">
+                    <h1>my stuff</h1>
+                    <h2><a href="about">about</a></h2>
+                    <h2><a href="music">music</a></h2>
+
+                    <h1>stuff for you</h1>
+                    <h2><a href="music">music</a></h2>
+                    <h2><a href="games">games</a></h2>
+                    <h2><a href="sites">other cool websites</a></h2>
+
+                    <h1>other website things</h1>
+                    <h2><a href="https://jackpurrin.atabook.com/">guestbook</a></h2>
+                </aside>
+            </div>
+
+            <footer id="footer" style="margin-top: 10px;">
+                <a href="https://oql.avris.it/license?c=jackpurrin%7Chttps%3A%2F%2Fjackpurrin.me%2F"><p>copyright © 2025 jackpurrin's webspace. all rights reserved.</p></a>
+            </footer>
+        </div>
     </body>
 </html>
