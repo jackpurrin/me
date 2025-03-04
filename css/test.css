@@ -5,7 +5,7 @@ body {
     margin: 0;
     background-color: #382d2c;
     background-size: 65px;
-    color: #ffdab9;
+    color: var(--txt-color);
 }
 
 * {
@@ -18,7 +18,7 @@ body {
 }
 
 #container a {
-    color: #ffdab9;
+    color: var(--txt-color);
     font-weight: bold;
 }
 
@@ -67,7 +67,7 @@ footer {
 }
 
 h1, h2, h3 {
-        color: #b89d86;
+        color: var(--header-color);
 }
 
 h1 {
