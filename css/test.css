@@ -6,6 +6,7 @@ body {
     background-color: #382d2c;
     background-size: 65px;
     color: var(--txt-color);
+    font-family: basiic;
 }
 
 * {
@@ -67,7 +68,8 @@ footer {
 }
 
 h1, h2, h3 {
-        color: var(--header-color);
+    color: var(--header-color);
+    font-family: Cherish !important;;
 }
 
 h1 {
