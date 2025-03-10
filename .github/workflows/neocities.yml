@@ -17,14 +17,7 @@ jobs:
     steps:
     # The checkout step copies your repo into the action runner. Important!
     - uses: actions/checkout@v4
-    # Set up any tools and build steps here
-    # This example uses a Node.js toolchain to build a site
-    # If you don't need Node.js to build your site, you can omit this.
-    - name: Use Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-    # If you have a different build process, replace this with your own build steps
+
     - name: Install deps and build
       run: |
         npm i
