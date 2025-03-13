@@ -6,13 +6,5 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); }
-
-button {
-    background-color: transparent;
-    color: var(--txt-color);
-    border: none;
-    font-size: 24px;
-    text-decoration: underline;
-    cursor: pointer;
+    -ms-transform: translate(-50%, -50%); 
 }

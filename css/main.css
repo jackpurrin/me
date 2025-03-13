@@ -3,7 +3,7 @@
 body {
     font-family: serif;
     margin: 0;
-    background-color: #382d2c;
+    background-color: var(--bkg-color);
     background-size: 65px;
     color: var(--txt-color);
     font-family: basiic;
