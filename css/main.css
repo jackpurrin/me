@@ -111,3 +111,7 @@ img {
 .rss:hover {
     filter: invert(.5);
 }
+
+a {
+    color: white;
+}
