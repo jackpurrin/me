@@ -2,116 +2,20 @@
 @import url(fonts.css);
 
 body {
-    margin: 0;
     background-color: var(--bkg-color);
-    background-size: 65px;
     color: var(--txt-color);
     font-family: basiic;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-#container {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-#container a {
-    color: var(--txt-color);
-    font-weight: bold;
-}
-
-#header {
-    width: 100%;
-    background-color: #50403f;
-    height: 150px;
-    background-image: var(--header-image);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-
-#flex {
-    display: flex;
-}
-
-aside {
-    background-color: #2d2525;
-    width: 200px;
-    padding: 20px;
-    font-size: smaller;
-}
-
-main {
-    background-color: #3f3535;
-    flex: 1;
-    padding: 20px;
-    order: 2;
-}
-
-#leftSidebar {
-    order: 1;
-}
-
-#rightSidebar {
-    order: 3;
-}
-
-footer {
-    background-color: #221c1b;
+    max-width: 30vw;
     margin: auto;
-    width: 60%;
-    padding: 10px;
     text-align: center;
 }
 
-h1, h2, h3 {
-    color: var(--header-color);
-    font-family: Cherish !important;
-}
-
 h1 {
-    font-size: 25px;
-}
-
-img {
-    max-width: 100%;
-}
-
-@media only screen and (max-width: 800px) {
-    #flex {
-        flex-wrap: wrap;
-    }
-
-    aside {
-        width: 100%;
-    }
-
-    main {
-        order: 1;
-    }
-
-    #leftSidebar {
-        order: 2;
-    }
-
-    #rightSidebar {
-        order: 3;
-    }
-}
-
-.rss {
-    filter: invert(1);
-    vertical-align: middle;
-
-}
-
-.rss:hover {
-    filter: invert(.5);
+    font-family: Cherish !important;
+    font-size: var(--header-size);
+    line-height: 10px;
 }
 
 a {
-    color: white;
+    color: var(--links-color);
 }

@@ -1,5 +1,10 @@
 :root {
-    --bkg-color: rgb(25, 23, 36);
-    --header-color: rgb(224, 222, 244);
+    --bkg-color: #191724;
+    --txt-color: #e0def4;
+    --links-color: #c4a7e7;
+    --highlight-color: #21202e;
+    --header-size: 3rem;
+    --red: #eb6f92;
+    --green: #31748f;
+    --blue: #9ccfd8;
 }
-
