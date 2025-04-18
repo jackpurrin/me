@@ -10,4 +10,5 @@ a {
     display: block; 
     text-decoration: underline red wavy 1px; 
     line-height: 3.5vh;
+    color: white;
 }
