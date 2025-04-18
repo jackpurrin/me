@@ -2,12 +2,8 @@
 @import url(fonts.css);
 
 body {
-    background-color: var(--bkg-color);
-    color: var(--txt-color);
+    background-image: var(--bkg-image);
     font-family: basiic;
-    max-width: 30vw;
-    margin: auto;
-    text-align: center;
 }
 
 h1 {
