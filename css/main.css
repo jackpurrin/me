@@ -1,18 +1,33 @@
 @import url(config.css);
 @import url(fonts.css);
 
-body {
+body, html {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+.bg-image {
     background-image: var(--bkg-image);
-    font-family: basiic;
+    filter: var(--blur);
+    -webkit-filter: var(--blur);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-h1 {
-    font-family: Cherish !important;
-    font-size: var(--header-size);
-    line-height: 10px;
-}
-
-a {
-    color: var(--links-color);
-    display: block;
+.bg-text {
+    background-color: rgb(0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--txt-color);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }

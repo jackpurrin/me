@@ -1,3 +1,5 @@
 :root {
     --bkg-image: url(/assets/images/background.webp);
+    --blur: blur(8px);
+    --txt-color: white;
 }
