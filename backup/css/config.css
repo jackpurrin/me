@@ -1,0 +1,6 @@
+:root {
+    --bkg-image: url(/assets/images/background.webp);
+    --bkg-color: #a27989;
+    --blur: blur(8px);
+    --txt-color: white;
+}

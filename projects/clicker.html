@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>jackpurrin's cafe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link rel="icon" href="/assets/favicons/1/favicon.gif" sizes="32x32">
+		<link rel="apple-touch-icon" href="/assets/favicons/1/apple-touch-icon.gif">
+		<link rel="stylesheet" href="/css/clicker.css">
+		<link rel="stylesheet" href="/css/common.css">
+		<script src="/js/clicker.js"></script>
+</head>
+<body>
+    <div class="bg-image"></div>
+    <div class="bg-text">
+  <div id="clickerContainer">
+  <a href="/"><span class="title">clicker game</span></a>
+  <br></br>
+  <a href="/projects">go back</a>
+    <p>Money: <span id="money">0</span></p>
+    <!-- Replace the button with an image of a cookie -->
+    <button id="cookie" onclick="clickCookie()">Money</button>
+  </div>
+  
+  <div id="shopContainer">
+    <h2>Shop</h2>
+    <p>Money per Click: <span id="mpc">1</span></p>
+    <button onclick="upgradeMPC()">Upgrade MPC (Cost: <span id="mpcCost">10</span> money)</button>
+    <p>Money per Second: <span id="mps">0</span></p>
+    <button onclick="buyMPS()">Buy MPS (Cost: <span id="mpsCost">50</span> money)</button>
+    <br>
+    <br>
+    <button onclick="loadGame()">Load game</button>
+    <button onclick="resetGame()">Reset game</button>
+    <script src="/js/clicker.js"></script>
+
+  </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.bg-image {
+  background-image: url("/assets/images/main.webp");
+}
+
+#cat {
+  max-width: 80%;
+  height: 300px;
+}
+
+  

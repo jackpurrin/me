@@ -1,0 +1,16 @@
+.bg-image {
+  background-image: url("/assets/images/minecraft.webp");
+}
+
+br {
+  line-height: calc(1.4rem + 1.4vw);
+}
+
+input {
+  color: white;
+  font-weight: 200;
+  width: 5%;
+  background-color: transparent;
+  border: none;
+  font-size: calc(0.9rem + 0.9vw);
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>jackpurrin's chat room</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://unpkg.com/xp.css" />
+        <link rel="stylesheet" href="/css/xpchat.css" />
+        <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+        <script src="/js/tabs.js"></script>
+    </head>
+    <body onload="set(16) volume(0.5)">
+        <div class="chat-room">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">jackpurrin's chat room</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Help"></button>
+                        <button onclick="closeWindow()" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <section class="tabs" style="max-width: 500px">
+                    <menu role="tablist" aria-label="Tabs for content">
+                        <button role="tab" aria-selected="true" aria-controls="chat">Chat</button>
+                        <button role="tab" aria-controls="people">People</button>
+                        <button role="tab" aria-controls="settings">Settings</button>
+                    </menu>
+                    <article role="tabpanel" id="chat">
+                        <div class="gc-messages"></div>
+                        <br>
+                        <form class="gc-message-form" onsubmit="return false;">
+                            <input class="gc-message-form__input gc-textarea" placeholder="Type a message.. Press enter to send.." type="text"/>
+                        </form>
+                        <script src="/js/group-chat.js"></script>
+                    </article>
+                    <article role="tabpanel" hidden id="people">
+                        <div class="gc-members-count"><progress></progress></div>
+                        <div class="gc-members-list"><progress></progress></div>
+                    </article>
+                    <article role="tabpanel" hidden id="settings">
+                        <div class="field-row" style="width: 300px">
+                            <script>
+                                let r = document.querySelector(':root');
+                                function set(value) {
+                                r.style.setProperty('--font-size', value + 'px');
+                                }
+                            </script> 
+                            <label for="range">Font:</label>
+                            <label for="range">Small</label>
+                            <input type="range" name="rangeInput" min="12" max="36" value=value oninput="set(this.value);" onchange="set(this.value);"> 
+                            <label for="range">Large</label>
+                        </div>
+                        <div class="field-row" style="width: 300px"> 
+                            <label for="range">Volume:</label>
+                            <label for="range">Quiet</label>
+                            <input type="range" name="rangeInput" min="0.0" max="1.0" value="0.5" step="0.1" oninput="playAudio(this.value);" onchange="playAudio(this.value)"> 
+                            <label for="range">Loud</label>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="taskbar">
+            <div class="start-button"><a style="color: white; text-decoration: none;" href="https://jackpurrin.me/"><img src="/assets/images/logo.svg"> start</a></div>
+            <div class="opened-tabs">
+                <div class="open-tab" onclick="openWindow()"><img src="/assets/images/send.png">chat</div>
+            </div>
+            <div class="time">11:20 PM</div>
+        </div>
+    </body>
+</html>
