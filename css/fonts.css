@@ -1,27 +1,13 @@
-@font-face {
-    font-family: 'basiic';
-    src: url('assets/fonts/basiic.eot');
-    src: local('basiic'),
-        url('/assets/fonts/basiic.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/basiic.woff2') format('woff2'),
-        url('/assets/fonts/basiic.woff') format('woff'),
-        url('/assets/fonts/basiic.ttf') format('truetype'),
-        url('/assets/fonts/basiic.svg#basiic') format('svg');
-    font-weight: 500;
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 310;
     font-style: normal;
-    font-display: swap;
+    color: var(--txt-color) !important;
 }
 
-@font-face {
-    font-family: 'Cherish';
-    src: url('assets/fonts/Cherish.eot');
-    src: local('Cherish'),
-        url('/assets/fonts/Cherish.eot?#iefix') format('embedded-opentype'),
-        url('/assets/fonts/Cherish.woff2') format('woff2'),
-        url('/assets/fonts/Cherish.woff') format('woff'),
-        url('/assets/fonts/Cherish.ttf') format('truetype'),
-        url('/assets/fonts/Cherish.svg#Cherish') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+a {
+    display: block; 
+    text-decoration: underline red wavy 1px; 
+    line-height: 3.5vh;
 }
