@@ -3,6 +3,7 @@
 
 body, html {
     height: 100%;
+    background-color: #a27989;
 }
 * {
     box-sizing: border-box;
@@ -30,4 +31,12 @@ body, html {
     width: 80%;
     padding: 20px;
     text-align: center;
+    
+    a {
+        display: block; 
+        color: var(--txt-color); 
+        text-decoration: underline red wavy 1px; 
+        line-height: 3.5vh
+    }
 }
+
