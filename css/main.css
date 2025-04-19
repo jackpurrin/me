@@ -39,7 +39,7 @@ html {
 }
 
 a {
-    font-size: calc(0.6rem + 0.6vw);
+    font-size: calc(0.5rem + 0.5vw);
     text-decoration: none;
     position: relative;
     color: white;
@@ -63,10 +63,10 @@ a:hover::after {
     transform: scaleX(1);
 }
 
-p {
-    font-size: calc(0.6rem + 0.6vw);
+p, li {
+    font-size: calc(0.5rem + 0.5vw);
 }
 
 h2 {
-    font-size: calc(0.9rem + 0.9vw);
+    font-size: calc(0.8rem + 0.8vw);
 }
