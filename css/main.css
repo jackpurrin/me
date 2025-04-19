@@ -34,7 +34,7 @@ html {
 .title {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 150;
-    color: white;
+    color: white !important;
     font-size: calc(1.4rem + 1.4vw);
 }
 
@@ -42,7 +42,7 @@ a {
     font-size: calc(0.5rem + 0.5vw);
     text-decoration: none;
     position: relative;
-    color: white;
+    color: #c4a7e7;
     margin: 15px 8px;
 
 }
