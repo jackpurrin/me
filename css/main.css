@@ -62,3 +62,11 @@ a::after {
 a:hover::after {
     transform: scaleX(1);
 }
+
+p {
+    font-size: calc(0.6rem + 0.6vw);
+}
+
+h2 {
+    font-size: calc(0.9rem + 0.9vw);
+}
