@@ -1,4 +1,17 @@
-# jackpurrin.me
+> [!NOTE]
+> Don't fork please, unless you have something to add. Star my repo! 
 
-this is the offical github repository for my website.  
-do not fork, unless you have something to add. please star my repo instead!
+## URLs to my website:
+### [Main Domain](https://jackpurrin.me/)  
+
+### [Pages.Dev](https://jackpurrin-me.pages.dev)
+
+### [Neocities](https://jackpurrin.neocities.org/)
+
+
+## TODO:
+
+- [x] Improve the chat room
+- [ ] Find a better way to add suggestions
+- [ ] Add back some games of demand
+- [ ] Add an image gallery of sorts
