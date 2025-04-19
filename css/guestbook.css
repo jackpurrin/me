@@ -1,5 +1,9 @@
 @import url(main.css);
 
+.bg-image {
+    background-image: url("/assets/images/main.webp");
+}
+
 #c_widget {
     box-sizing: border-box;
     height: 100%;
