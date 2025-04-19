@@ -6,15 +6,11 @@
 
 ### [Mirror 1](https://jackpurrin-me.pages.dev)
 
-## Other versions of my website:  
-### [Beta](https://dev.jackpurrin.me/)  
+### [Neocities](https://jackpurrin.neocities.org/)
 
-### [Mirror 1 of Beta](https://dev-jackpurrin-me.pages.dev)
 
 ## TODO:
 
-- [ ] Start using Vue.JS
-- [ ] Use redo all css using TailWind CSS
 - [x] Improve the chat room
 - [ ] Find a better way to add suggestions
 - [ ] Add back some games of demand
