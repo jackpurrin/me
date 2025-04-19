@@ -1,8 +1,5 @@
-/* ********************************************************************** */
-/* OLD SCHOOL CURRENT PLAYING STUFF */
-
 var LFM_API = "https://ws.audioscrobbler.com/2.0/";
-var LFM_KEY = "d204b12d740ddac2b1d0c4ea789e6246"; // Get one at https://secure.last.fm/login?next=/api/account/create
+var LFM_KEY = "d204b12d740ddac2b1d0c4ea789e6246";
 var LFM_USER = "jackpurrin";
 
 function getNowPlaying() {
@@ -17,12 +14,10 @@ function getNowPlaying() {
   httpRequest.onreadystatechange = function() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
       if (httpRequest.status === 200) {
-        // All set
         var response = JSON.parse(httpRequest.responseText);
         console.log(response);
         var currentTrack = response.recenttracks.track[0];
 
-        // Check if it's the same, if not then rerender
         if (!window.nowPlaying || window.nowPlaying.mbid != currentTrack.mbid) {
           window.nowPlaying = currentTrack;
           renderNowPlaying(currentTrack);
@@ -36,7 +31,6 @@ function getNowPlaying() {
   httpRequest.open('GET', recentTracksUrl, true);
   httpRequest.send();
 }
-
 
 var nowPlayingNode = null;
 
@@ -52,8 +46,6 @@ function renderNowPlaying(track) {
   var nowPlayingImage = document.createElement("img");
   nowPlayingImage.setAttribute("src", imageurl);
   nowPlayingNode.appendChild(nowPlayingImage);
-
-  // Add more stuff to the display
 
   var currently = track["@attr"] && track["@attr"].nowplaying == "true";
 
