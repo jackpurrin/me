@@ -1,3 +1,5 @@
+@import url(main.css);
+
 .bg-image {
   background-image: url("/assets/images/projects.webp");
 }
