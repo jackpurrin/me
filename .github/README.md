@@ -1,5 +1,8 @@
 > [!NOTE]
-> Don't fork please, unless you have something to add. Star my repo! 
+> Don't fork please, unless you have something to add. Star my repo!
+
+> [!WARNING]
+> The main domain does **NOT** get the latest updates on my website. If you want the latest version of my website, the Dev version website will have the latest updates.
 
 ## URLs to my website:
 ### [Main Domain](https://jackpurrin.me/)  
