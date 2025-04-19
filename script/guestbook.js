@@ -52,7 +52,7 @@ const v_mainHtml = `
     <div id="c_container">${s_loadingText}</div>
 `;
 const v_formHtml = `
-    <h2 id="c_widgetTitle">${s_widgetTitle}</h2>
+    <a class="title" href="/">guestbook</a>
 
     <div id="c_nameWrapper" class="c-inputWrapper">
         <label class="c-label c-nameLabel" for="entry.${s_nameId}">${s_nameFieldLabel}</label>
