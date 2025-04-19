@@ -4,10 +4,6 @@
     background-image: url("/assets/images/socials.webp");
 }
 
-br {
-    line-height: calc(1.4rem + 1.4vw);
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -16,4 +12,5 @@ ul {
 
 li {
     margin: 0;
+    line-height: calc(1.2rem + 1.2vw);
 }
