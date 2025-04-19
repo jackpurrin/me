@@ -6,3 +6,7 @@ br {
   line-height: calc(1.4rem + 1.4vw);
 }
 
+a {
+  display: block;
+}
+
