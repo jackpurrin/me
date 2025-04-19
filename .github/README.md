@@ -4,7 +4,7 @@
 ## URLs to my website:
 ### [Main Domain](https://jackpurrin.me/)  
 
-### [Mirror 1](https://jackpurrin-me.pages.dev)
+### [Pages.Dev](https://jackpurrin-me.pages.dev)
 
 ### [Neocities](https://jackpurrin.neocities.org/)
 
@@ -14,3 +14,4 @@
 - [x] Improve the chat room
 - [ ] Find a better way to add suggestions
 - [ ] Add back some games of demand
+- [ ] Add an image gallery of sorts
