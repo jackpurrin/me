@@ -60,7 +60,7 @@ function renderNowPlaying(track) {
   var metadata = document.createElement("div");
   metadata.setAttribute("class", "np-metadata");
   metadata.innerHTML =
-    "<span class=\"np-heading\">" + (currently ? "jackpurrin is listening to" : "latest track jackpurrin has listened to") + "</span>" +
+    "<span class=\"np-heading\">" + (currently ? "jackpurrin is listening to" : "awsome song") + "</span>" +
     "<span class=\"np-title\"><strong>"+track.name+"</strong></span>" +
     "<span class=\"np-artist\">"+track.artist["#text"]+"</span>" +
     (currently ?
