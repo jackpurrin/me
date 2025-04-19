@@ -8,12 +8,12 @@
     display: block;
 }
 
-.status div {
+.boykisser div {
     position:relative;
     min-width:960px;
 }
 
-.status img {
+.boykisser img {
     position: absolute;
     right:0;
     top:0;
