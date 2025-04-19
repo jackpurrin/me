@@ -1,17 +1,17 @@
 @import url(main.css);
 
 .bg-image {
-  background-image: url("/assets/images/main.webp");
+    background-image: url("/assets/images/main.webp");
 }
 
 .title {
-  display: block;
+    display: block;
 }
 
 p {
-  font-size: calc(0.6rem + 0.6vw);
+    font-size: calc(0.6rem + 0.6vw);
 }
 
 h2 {
-  font-size: calc(0.9rem + 0.9vw);
+    font-size: calc(0.9rem + 0.9vw);
 }
