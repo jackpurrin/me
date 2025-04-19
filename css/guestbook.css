@@ -1,0 +1,126 @@
+#c_widget {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 15px;
+    overflow: auto;
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    color: #211F24;
+}
+
+#c_widget button, #c_widget input[type=submit] {
+    padding: 4px;
+    text-decoration: none;
+	text-transform: lowercase;
+	text-align: center;
+    background-color: white;
+    color: pink;
+    border: 1px solid pink;
+    border-radius: 5px;
+    margin: auto;
+}
+#c_widget button:hover, #c_widget input[type=submit]:hover {
+    background-color: pink;
+    color: white;
+    border: 1px solid pink;
+}
+#c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
+#c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
+    background-color: white;
+    color: pink;
+    border: 1px solid pink;
+}
+
+#c_inputDiv {
+    padding: 10px;
+    text-transform: lowercase;
+    border: 2px solid pink;
+    border-radius: 5px;
+    color: white;
+}
+#c_container {margin-top: 10px;}
+
+#c_widgetTitle {
+    margin: 0;
+    padding: 0;
+}
+
+.c-inputWrapper {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.c-input {
+    padding: 4px;
+    color: white;
+    border-radius: 4px;
+	outline: none;
+    background-color: #333;
+}
+.c-input:focus {border: 2px solid pink;}
+
+.c-textInput {
+    width: calc(100% - 10px);
+    max-width: 900px;
+    resize: none;
+}
+#c_submitButton {display: block;}
+#c_replyingText {color: #5E2C49;}
+
+.c-comment {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    border: pink 2px solid;
+}
+.c-reply {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px dashed pink;
+    border-radius: 4px;
+}
+.c-reply:last-child {margin-bottom: 0;}
+
+.c-name {
+    display: flex;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    text-decoration: underline;
+}
+.c-site {
+    text-transform: lowercase;
+    color: pink;
+    display: flex;
+    margin: 0;
+    margin-right: 10px;
+}
+.c-site:hover {color: pink;}
+.c-timestamp {
+    float: right;
+    opacity: 60%;
+}
+.c-text {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    text-align: justify;
+}
+
+#c_pagination {text-align: center;}
+.c-replyButton {display: none;}
+.c-expandButton {
+    float: right;
+    margin-top: 10px;
+}
+.c-paginationButton {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+label {
+    display: block;
+}
