@@ -4,10 +4,14 @@
 ## URLs to my website:
 ### [Main Domain](https://jackpurrin.me/)  
 
-### [Pages.Dev](https://jackpurrin-me.pages.dev)
+### [Cloudflare Pages Mirror](https://jackpurrin-me.pages.dev)
 
 ### [Neocities](https://jackpurrin.neocities.org/)
 
+## Beta/Dev Versions of my website
+### [Main Domain](https://d.jackpurrin.me/)
+
+### [Cloudflare Pages Mirror](dev-e0a.pages.dev)
 
 ## TODO:
 
