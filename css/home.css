@@ -7,3 +7,14 @@
 .title {
     display: block;
 }
+
+.status div {
+    position:relative;
+    min-width:960px;
+}
+
+.status img {
+    position: absolute;
+    right:0;
+    top:0;
+}
