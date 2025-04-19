@@ -8,6 +8,12 @@ br {
     line-height: calc(1.4rem + 1.4vw);
 }
 
-a {
-    display: block;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
 }
