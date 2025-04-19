@@ -6,5 +6,5 @@
 
 #cat {
     max-width: 80%;
-    height: 300px;
+    max-height: 300px;
 }
