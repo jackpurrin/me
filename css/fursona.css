@@ -1,0 +1,8 @@
+.bg-image {
+    background-image: url("/assets/images/main.webp");
+}
+
+img {
+    max-width: 100%;
+    height: 25vh;
+}
