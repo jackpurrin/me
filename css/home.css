@@ -3,3 +3,14 @@
 .bg-image {
     background-image: url("/assets/images/main.webp");
 }
+
+.mood-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.mood {
+  padding-top: 5px;
+  padding-left: 5px;
+}
