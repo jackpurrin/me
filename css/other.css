@@ -1,4 +1,5 @@
 @import url(main.css);
+@import url(cryingcat.css);
 
 .bg-image {
     background-image: url("/assets/images/main.webp");
