@@ -1,8 +1,6 @@
 @import url(main.css);
 
-.bg-image {
-    background-image: url("/assets/images/main.webp");
-}
+.bg-image {background-image: url("/assets/images/main.webp")}
 
 .mood-cont {
     display: flex;
@@ -14,3 +12,5 @@
   padding-top: 5px;
   padding-left: 5px;
 }
+
+.h-card {display: none}
