@@ -15,6 +15,11 @@
 
 /* The CatWeb Webring */
 
+#nekowebring .webring-prev {text-align: right;}
+#nekowebring .webring-info {text-align: center;}
+#nekowebring .webring-next {text-align: left;}
+#nekowebring .webring-links {font-size: small;}
+
 #nekowebring {
     margin: 0 auto;
     padding: 15px;
@@ -29,49 +34,16 @@
     image-rendering: pixelated;
 }
 
-#nekowebring .webring-prev {
-    text-align: right;
-}
-
-#nekowebring .webring-info {
-    text-align: center;
-}
-
-#nekowebring .webring-next {
-    text-align: left;
-}
-
-#nekowebring .webring-links {
-    font-size: small;
-}
+/* Crying Car Webring */
 
 #cryingcatjpeg {
     margin: 0 auto;
     padding: 15px;
 }
 
-/* Crying Car Webring */
-
-#cryingcatjpeg table {
-    margin: 0 auto;
-}
-
-#cryingcatjpeg table tr td {
-    padding: 15px;
-}
-
-#cryingcatjpeg .webring-prev {
-    text-align: right;
-}
-
-#cryingcatjpeg .webring-info {
-    text-align: center;
-}
-
-#cryingcatjpeg .webring-next {
-    text-align: left;
-}
-
-#cryingcatjpeg .webring-links {
-    font-size: small;
-}
+#cryingcatjpeg table {margin: 0 auto;}
+#cryingcatjpeg table tr td {padding: 15px;}
+#cryingcatjpeg .webring-prev {text-align: right;}
+#cryingcatjpeg .webring-info {text-align: center;}
+#cryingcatjpeg .webring-next {text-align: left;}
+#cryingcatjpeg .webring-links {font-size: small;}

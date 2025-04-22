@@ -2,6 +2,8 @@
 
 .bg-image {background-image: url("/assets/images/main.webp")}
 
+.h-card {display: none}
+
 .mood-cont {
     display: flex;
     align-items: center;
@@ -13,4 +15,3 @@
   padding-left: 5px;
 }
 
-.h-card {display: none}

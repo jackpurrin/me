@@ -1,3 +1,6 @@
+p, li {font-size: calc(0.5rem + 0.5vw);}
+h2 {font-size: calc(0.8rem + 0.8vw);}
+
 body,
 html {
     background-color: #222;
@@ -62,12 +65,4 @@ a::after {
 }
 a:hover::after {
     transform: scaleX(1);
-}
-
-p, li {
-    font-size: calc(0.5rem + 0.5vw);
-}
-
-h2 {
-    font-size: calc(0.8rem + 0.8vw);
 }

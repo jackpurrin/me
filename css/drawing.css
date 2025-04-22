@@ -1,8 +1,6 @@
 @import url(main.css);
 
-.bg-image {
-    background-image: url("/assets/images/main.webp");
-}
+.bg-image {background-image: url("/assets/images/main.webp");}
 
 img {
     max-width: 80%;

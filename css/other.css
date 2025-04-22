@@ -1,9 +1,7 @@
 @import url(main.css);
 @import url(webrings.css);
 
-.bg-image {
-    background-image: url("/assets/images/main.webp");
-}
+.bg-image {background-image: url("/assets/images/main.webp");}
 
 .noai {
     width: 176px; 
