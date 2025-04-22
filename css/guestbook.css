@@ -32,7 +32,6 @@ label {display: block;}
 }
 #c_widget button:hover, #c_widget input[type=submit]:hover {
     background-color: pink;
-    color: white;
     border: 1px solid pink;
 }
 #c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
@@ -62,7 +61,6 @@ label {display: block;}
 }
 .c-input {
     padding: 4px;
-    color: white;
     border-radius: 4px;
 	outline: none;
 }
