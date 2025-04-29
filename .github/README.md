@@ -4,6 +4,8 @@
 > [!WARNING]
 > The main domain does **NOT** get the latest updates on my website. If you want the latest version of my website, the Dev version website will have the latest updates.
 
+# 1,500 commits!!
+
 ## URLs to my website:
 ### [Main Domain](https://jackpurrin.me/)  
 
