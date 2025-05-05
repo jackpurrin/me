@@ -1,3 +1,6 @@
+@layer base, utils, components;
+@import "@webtui/css/base.css";
+
 p, li {font-size: calc(0.5rem + 0.5vw);}
 h2 {font-size: calc(0.8rem + 0.8vw);}
 
