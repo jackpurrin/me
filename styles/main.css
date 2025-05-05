@@ -1,5 +1,0 @@
-@layer base, utils, components;
-@import "@webtui/css/base.css";
-@import "@webtui/css/utils/box.css";
-@import "@webtui/css/components/button.css"; 
-@import "@webtui/css/components/typography.css";

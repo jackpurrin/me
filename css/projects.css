@@ -1,0 +1,14 @@
+@import url(main.css);
+
+.bg-image {background-image: url("/assets/images/projects.webp");}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    line-height: calc(1.2rem + 1.2vw);
+}
