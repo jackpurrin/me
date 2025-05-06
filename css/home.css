@@ -1,0 +1,19 @@
+@import url("main.css");
+
+.header { 
+    display: flex;
+    justify-content: space-between; 
+}
+span {
+    background-color: var(--background0);
+    padding: 0 1ch;
+}
+
+.main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+}
