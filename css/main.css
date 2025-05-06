@@ -1,5 +1,6 @@
 @layer base, utils, components;
-@import "tui.css";
+@import url("tui.css");
+@import url("theme.css");
 
 .header { 
     display: flex;
