@@ -3,20 +3,13 @@
 @import url("plugins/theme.css");
 @import url("plugins/font.css");
 
-.h-card {display: none}
-a {color: var(--foreground0); text-decoration: none;}
+p, h1, h2 {line-height: 2rem;}
+h1, h2 {font-family: terminal;}
+h1 {font-size: 2rem;}
 
 span {
     background-color: var(--background0);
     padding: 0 1ch;
-}
-
-h1, h2 {
-    font-family: terminal;
-}
-
-h1 {
-    font-size: 2rem;
 }
 
 .header { 
@@ -25,6 +18,7 @@ h1 {
 }
 
 .main {
+    text-align: center;
     font-family: terminal;
     margin: 0;
     position: absolute;

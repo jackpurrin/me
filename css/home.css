@@ -1,19 +1,9 @@
 @import url("main.css");
 
-.header { 
-    display: flex;
-    justify-content: space-between; 
-}
-span {
-    background-color: var(--background0);
-    padding: 0 1ch;
-}
+.h-card {display: none}
 
-.main {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); 
+a {
+    color: var(--foreground0); 
+    text-decoration: none; 
+    text-decoration: underline wavy 1px #d20f39
 }
