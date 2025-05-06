@@ -2,3 +2,12 @@
 @import "@webtui/css/base.css";
 @import "@webtui/css/utils/box.css";
 @import "@webtui/css/components/typography.css";
+
+.header { 
+    display: flex;
+    justify-content: space-between; 
+}
+span {
+    background-color: var(--background0);
+    padding: 0 1ch;
+}
