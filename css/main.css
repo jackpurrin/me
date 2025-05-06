@@ -1,6 +1,9 @@
 @layer base, utils, components;
 @import url("tui.css");
-@import url("theme.css");
+@import url("plugins/theme.css");
+@import url("plugins/font.css");
+
+body {font-family: terminal;}
 
 .header { 
     display: flex;
@@ -20,3 +23,6 @@ span {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); 
 }
+
+
+  
