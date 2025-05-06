@@ -3,6 +3,8 @@
 @import url("plugins/theme.css");
 @import url("plugins/font.css");
 
+.h-card {display: none}
+
 span {
     background-color: var(--background0);
     padding: 0 1ch;
