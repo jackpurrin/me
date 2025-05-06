@@ -4,14 +4,18 @@
 @import url("plugins/font.css");
 
 .h-card {display: none}
+a {color: var(--foreground0); text-decoration: none;}
 
 span {
     background-color: var(--background0);
     padding: 0 1ch;
 }
 
-h1 {
+h1, h2 {
     font-family: terminal;
+}
+
+h1 {
     font-size: 2rem;
 }
 
