@@ -3,19 +3,23 @@
 @import url("plugins/theme.css");
 @import url("plugins/font.css");
 
-body {font-family: terminal;}
-
-.header { 
-    display: flex;
-    justify-content: space-between; 
-}
 span {
     background-color: var(--background0);
     padding: 0 1ch;
 }
 
+h1 {
+    font-family: terminal;
+    font-size: 2rem;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between; 
+}
 
 .main {
+    font-family: terminal;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -23,6 +27,3 @@ span {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); 
 }
-
-
-  
