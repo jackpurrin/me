@@ -12,6 +12,12 @@ span {
     padding: 0 1ch;
 }
 
+a {
+    color: var(--foreground0); 
+    text-decoration: none; 
+    text-decoration: underline wavy 1px #d20f39
+}
+
 .header { 
     display: flex;
     justify-content: space-between; 
