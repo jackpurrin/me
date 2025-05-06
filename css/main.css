@@ -5,7 +5,8 @@
 
 p, h1, h2 {line-height: 2rem;}
 h1, h2 {font-family: terminal;}
-h1 {font-size: 2rem;}
+h1, .title {font-size: 2rem;}
+.title {text-decoration: none;}
 
 span {
     background-color: var(--background0);
