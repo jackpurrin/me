@@ -8,6 +8,8 @@ h1, h2 {font-family: terminal;}
 h1 {font-size: 2rem; padding: 20px}
 .title {text-decoration: none;}
 .h-card {display: none}
+.main {padding: 30px;}
+.header {margin: -30px;}
 
 span {
     background-color: var(--background0);
