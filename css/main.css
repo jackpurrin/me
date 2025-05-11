@@ -5,8 +5,9 @@
 
 p, h1, h2 {line-height: 2rem;}
 h1, h2 {font-family: terminal;}
-h1, .title {font-size: 2rem; padding: 20px}
+h1 {font-size: 2rem; padding: 20px}
 .title {text-decoration: none;}
+.h-card {display: none}
 
 span {
     background-color: var(--background0);
@@ -33,4 +34,8 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); 
+}
+
+.branch {
+  background-color: #7287fd;
 }
