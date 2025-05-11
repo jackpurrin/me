@@ -20,6 +20,17 @@ a {
     text-decoration: underline wavy 1px #d20f39
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    line-height: calc(1.2rem + 1.2vw);
+}
+
 .header { 
     display: flex;
     justify-content: space-between; 
