@@ -6,7 +6,7 @@
 
 # 1,500 commits!!
 
-## join the [discord](https://discord.gg/JKYAbDssVp)
+## join the [discord](https://discord.gg/HF4FsEZ5Kj)
 
 ## URLs to my website:
 ### [Main Domain](https://jackpurrin.me/)  
