@@ -1,59 +1,68 @@
-@layer base, utils, components;
-@import url("tui.css");
-@import url("plugins/theme.css");
-@import url("plugins/font.css");
+p, li {font-size: calc(0.5rem + 0.5vw);}
+h2 {font-size: calc(0.8rem + 0.8vw);}
 
-p, h1, h2 {line-height: 2rem;}
-h1, h2 {font-family: terminal;}
-h1 {font-size: 2rem; padding: 20px}
-.title {text-decoration: none;}
-.h-card {display: none}
-.main {padding: 30px;}
-.header {margin: -30px;}
-
-span {
-    background-color: var(--background0);
-    padding: 0 1ch;
-}
-
-a {
-    color: var(--foreground0); 
-    text-decoration: none; 
-    text-decoration: underline wavy 1px #d20f39
-}
-
-ul {
-    list-style: none;
+body,
+html {
+    background-color: #222;
     padding: 0;
     margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-li {
-    margin: 0;
-    line-height: calc(1.2rem + 1.2vw);
+.bg-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(60px);
+    -webkit-filter: blur(60px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
-.header { 
-    display: flex;
-    justify-content: space-between; 
-}
-
-.window {
-    text-align: center;
-    font-family: terminal;
-    margin: 0;
+.bg-text {
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    border: 5px solid rgba(255, 192, 203, 0.5);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); 
+    z-index: 1;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    max-height: 80%;
+    overflow-x: scroll;
 }
 
-main {
-    max-height: 80%; 
-    overflow: scroll;
+.title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 150;
+    color: white !important;
+    font-size: calc(1.4rem + 1.4vw);
 }
 
-.branch {
-  background-color: #7287fd;
+a {
+    font-size: calc(0.5rem + 0.5vw);
+    text-decoration: none;
+    position: relative;
+    color: #c4a7e7;
+    margin: 15px 8px;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    background: linear-gradient(50deg, #5BCEFA, #F5A9B8, white, #F5A9B8, #5BCEFA);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease-in-out;
+}
+a:hover::after {
+    transform: scaleX(1);
 }

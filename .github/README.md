@@ -6,8 +6,6 @@
 
 # 1,500 commits!!
 
-## join the [discord](https://discord.gg/HF4FsEZ5Kj)
-
 ## URLs to my website:
 ### [Main Domain](https://jackpurrin.me/)  
 
@@ -18,7 +16,7 @@
 ## Beta/Dev Versions of my website
 ### [Main Domain](https://d.jackpurrin.me/)
 
-### [Cloudflare Pages Mirror](https://dev-e0a.pages.dev/)
+### [Cloudflare Pages Mirror](dev-e0a.pages.dev)
 
 ## TODO:
 
