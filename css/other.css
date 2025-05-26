@@ -1,0 +1,15 @@
+@import url(main.css);
+@import url(webrings.css);
+
+.bg-image {background-image: url("/assets/images/main.webp");}
+
+.noai {
+    width: 176px; 
+    image-rendering: pixelated;
+}
+
+#bucket-webring {
+    width: 100%; 
+    height: 3rem; 
+    border: none;
+}

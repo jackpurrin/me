@@ -1,0 +1,49 @@
+/* NoAI Webring */
+
+.noai {
+    width: 176px;
+    image-rendering: pixelated;
+}
+
+/* Bucket Webring */
+
+#bucket-webring {
+    width: 100%;
+    height: 3rem;
+    border: none;
+}
+
+/* The CatWeb Webring */
+
+#nekowebring .webring-prev {text-align: right;}
+#nekowebring .webring-info {text-align: center;}
+#nekowebring .webring-next {text-align: left;}
+#nekowebring .webring-links {font-size: small;}
+
+#nekowebring {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#nekowebring table {
+    background: linear-gradient(#fff2df, #fff2df, #eac3be);
+    border: #c09a99 2px solid;
+    margin: 0 auto;
+    padding: 7px;
+    border-radius: 10px;
+    image-rendering: pixelated;
+}
+
+/* Crying Car Webring */
+
+#cryingcatjpeg {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#cryingcatjpeg table {margin: 0 auto;}
+#cryingcatjpeg table tr td {padding: 15px;}
+#cryingcatjpeg .webring-prev {text-align: right;}
+#cryingcatjpeg .webring-info {text-align: center;}
+#cryingcatjpeg .webring-next {text-align: left;}
+#cryingcatjpeg .webring-links {font-size: small;}
