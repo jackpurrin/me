@@ -1,41 +1,61 @@
 @import url(main.css);
 
-.bg-image {background-image: url("/assets/images/main.webp");}
+.bg-image {
+    background-image: url("/assets/images/main.webp");
+}
 
-#c_container {margin-top: 10px;}
-.c-input:focus {border: 2px solid pink;}
-#c_submitButton {display: block;}
-#c_replyingText {color: #5E2C49;}
-.c-reply:last-child {margin-bottom: 0;}
-label {display: block;}
+#c_container {
+    margin-top: 10px;
+}
+.c-input:focus {
+    border: 2px solid pink;
+}
+#c_submitButton {
+    display: block;
+}
+#c_replyingText {
+    color: #5e2c49;
+}
+.c-reply:last-child {
+    margin-bottom: 0;
+}
+label {
+    display: block;
+}
 
 #c_widget {
     box-sizing: border-box;
     height: 100%;
     padding: 15px;
     overflow: auto;
-    font-family: 'Trebuchet MS';
+    font-family: "Trebuchet MS";
     font-size: 14px;
-    color: #211F24;
+    color: #211f24;
 }
 
-#c_widget button, #c_widget input[type=submit] {
+#c_widget button,
+#c_widget input[type="submit"] {
     padding: 4px;
     text-decoration: none;
-	text-transform: lowercase;
-	text-align: center;
+    text-transform: lowercase;
+    text-align: center;
     background-color: white;
     color: pink;
     border: 1px solid pink;
     border-radius: 5px;
     margin: auto;
 }
-#c_widget button:hover, #c_widget input[type=submit]:hover {
+#c_widget button:hover,
+#c_widget input[type="submit"]:hover {
     background-color: pink;
     border: 1px solid pink;
 }
-#c_widget button:disabled, #c_widget input[type=submit]:disabled {opacity: 60%;}
-#c_widget button:disabled:hover, #c_widget input[type=submit]:disabled:hover {
+#c_widget button:disabled,
+#c_widget input[type="submit"]:disabled {
+    opacity: 60%;
+}
+#c_widget button:disabled:hover,
+#c_widget input[type="submit"]:disabled:hover {
     background-color: white;
     color: pink;
     border: 1px solid pink;
@@ -62,7 +82,7 @@ label {display: block;}
 .c-input {
     padding: 4px;
     border-radius: 4px;
-	outline: none;
+    outline: none;
 }
 
 .c-textInput {
@@ -102,7 +122,9 @@ label {display: block;}
     margin: 0;
     margin-right: 10px;
 }
-.c-site:hover {color: pink;}
+.c-site:hover {
+    color: pink;
+}
 .c-timestamp {
     float: right;
     opacity: 60%;
@@ -114,8 +136,12 @@ label {display: block;}
     text-align: justify;
 }
 
-#c_pagination {text-align: center;}
-.c-replyButton {display: none;}
+#c_pagination {
+    text-align: center;
+}
+.c-replyButton {
+    display: none;
+}
 .c-expandButton {
     float: right;
     margin-top: 10px;

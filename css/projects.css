@@ -1,6 +1,8 @@
 @import url(main.css);
 
-.bg-image {background-image: url("/assets/images/projects.webp");}
+.bg-image {
+    background-image: url("/assets/images/projects.webp");
+}
 
 ul {
     list-style: none;

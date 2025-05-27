@@ -1,10 +1,18 @@
 @import url(main.css);
 
-.bg-image {background-image: url("/assets/images/main.webp");}
+.bg-image {
+    background-image: url("/assets/images/main.webp");
+}
 
-.message {padding: 5px 0;}
-.message .member {display: inline-block;}
-.message-form__button {margin: 10px;}
+.message {
+    padding: 5px 0;
+}
+.message .member {
+    display: inline-block;
+}
+.message-form__button {
+    margin: 10px;
+}
 
 .members-count,
 .members-list,

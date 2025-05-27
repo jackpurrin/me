@@ -1,8 +1,12 @@
 @import url(main.css);
 
-.bg-image {background-image: url("/assets/images/main.webp");}
+.bg-image {
+    background-image: url("/assets/images/main.webp");
+}
 
-p {font-size: calc(0.9rem + 0.9vw);}
+p {
+    font-size: calc(0.9rem + 0.9vw);
+}
 
 button {
     background-color: transparent;

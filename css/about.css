@@ -1,7 +1,9 @@
 @import url(main.css);
 @import url(last.fm.css);
 
-.bg-image {background-image: url("/assets/images/main.webp");}
+.bg-image {
+    background-image: url("/assets/images/main.webp");
+}
 
 ul {
     list-style: none;
