@@ -11,5 +11,5 @@ fetch('https://api.github.com/repos/jackpurrin/me/commits?per_page=1')
     let day = date.slice(8, 10);
 		let hour = date.slice(11, 13);
 		let min = date.slice(14, 16);
-		document.getElementById('date').innerHTML = year + " - " + month + " - " + day + " - " + hour + " - " + min + ""
+		document.getElementById('date').innerHTML = year + " - " + month + " - " + day +  "\n"  + hour + " : " + min + ""
   })
