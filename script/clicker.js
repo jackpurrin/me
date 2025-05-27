@@ -10,12 +10,13 @@ const mpcCostDisplay = document.getElementById("mpcCost");
 const mpsDisplay = document.getElementById("mps");
 const mpsCostDisplay = document.getElementById("mpsCost");
 
-function saveGame() { + localStorage.setItem("savedMoney", money);
+function saveGame() {
+    +localStorage.setItem("savedMoney", money);
     +localStorage.setItem("savedMPC", mpc);
     +localStorage.setItem("savedMPCC", mpcCost);
     +localStorage.setItem("savedMPS", mps);
     +localStorage.setItem("savedMPSC", mpsCost);
-    updateDisplay()
+    updateDisplay();
 }
 
 function loadGame() {
@@ -24,7 +25,7 @@ function loadGame() {
     mpcCost = +localStorage.getItem("savedMPCC");
     mps = +localStorage.getItem("savedMPS");
     mpsCost = +localStorage.getItem("savedMPSC");
-    updateDisplay()
+    updateDisplay();
 }
 
 function resetGame() {
@@ -57,7 +58,8 @@ function upgradeMPC() {
         mpcCost = Math.ceil(mpcCost);
         updateDisplay();
         saveGame();
-    } else {}
+    } else {
+    }
 }
 
 function buyMPS() {
@@ -73,7 +75,8 @@ function buyMPS() {
             saveGame();
         }, 1000);
         updateDisplay();
-    } else {}
+    } else {
+    }
 }
 
 updateDisplay();
