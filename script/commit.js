@@ -2,7 +2,7 @@ fetch("https://api.github.com/repos/jackpurrin/me/commits?per_page=1")
     .then((res) => res.json())
     .then((res) => {
         let fetchedMessage = res[0].commit.message;
-        let replacedMessage = fetchedMessage.replace("Signed-off-by: ~jackpurrin", "");
+        let replacedMessage = fetchedMessage.replace("Signed-off-by: ~jack", "");
         console.log(replacedMessage);
         document.getElementById("message").innerHTML = replacedMessage;
         let date = res[0].commit.author.date;
