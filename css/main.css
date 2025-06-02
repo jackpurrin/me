@@ -1,3 +1,5 @@
+@import url(plyr.css);
+
 p,
 li {
     font-size: calc(0.5rem + 0.5vw);
