@@ -1,4 +1,5 @@
 @import url(main.css);
+@import url(plyr.css);
 
 .bg-image {
     background-image: url("/assets/images/main.webp");
@@ -53,3 +54,32 @@
         transform: translate(-100%, 0);
     }
 }
+
+:root {
+  --plyr-color-main: #00ffff; /* Neon cyan accent */
+}
+
+.audio-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #1a1a1a;
+  padding: 10px;
+  z-index: 9999;
+  box-shadow: 0 -2px 20px rgba(0, 255, 255, 0.4);
+}
+
+.audio-bar .plyr {
+  width: 100%;
+  filter: drop-shadow(0 0 5px #00ffff);
+}
+
+.plyr--audio .plyr__controls {
+  background: transparent;
+}
+
+.plyr__volume #plyr-volume-4769  {
+    color: grey;
+}
+
