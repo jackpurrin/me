@@ -22,6 +22,15 @@ header {
     margin: 1rem;
 }
 
+div {
+    border: 0.1rem #e0def4 solid;
+    margin: 1rem; 
+}
+
+.about {
+    max-width: 20%;
+}
+
 h2 {
     color: var(--h2-clr);
 }
