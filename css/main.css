@@ -14,3 +14,8 @@ a {
     color: #c4a7e7;
     text-decoration: none;
 }
+
+header {
+    border: 0.1rem #e0def4 solid;
+    margin: 1rem;
+}
