@@ -29,6 +29,8 @@ div {
 
 .about {
     max-width: 20%;
+    max-height: 50vh;
+    overflow: scroll;
 }
 
 h2 {
