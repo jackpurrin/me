@@ -1,3 +1,7 @@
+.bg-image {
+    background-image: url("/assets/images/main.webp");
+}
+
 p,
 li {
     font-size: calc(0.5rem + 0.5vw);

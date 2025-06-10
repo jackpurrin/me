@@ -1,9 +1,5 @@
 @import url(main.css);
 
-.bg-image {
-    background-image: url("/assets/images/main.webp");
-}
-
 #cat {
     max-width: 80%;
     max-height: 300px;
