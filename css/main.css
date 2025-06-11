@@ -1,20 +1,32 @@
 @import url(vars.css);
 @import url(font.css);
 
+/* sets the main styling, colors and text align */
+
 html {
     background-color: var(--bkg-clr);
     color: var(--txt-clr);
     text-align: center;
 }
 
+/* makes the header and div have a border */
 
 header, div {
     border: 0.1rem var(--line-clr) solid;
     margin: 1rem;
 }
 
+/* allows for the movement of my divs */
+
 main {
     display: flex;
     justify-content: center;
+}
+
+/* makes the images responsive */
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
