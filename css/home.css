@@ -12,3 +12,7 @@
     max-height: 50vh;
     overflow: scroll;
 }
+
+.music {
+    height: 5vh;
+}
