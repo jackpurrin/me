@@ -1,4 +1,5 @@
 @import url(vars.css);
+@import url(font.css);
 
 html {
     background-color: var(--bkg-clr);
