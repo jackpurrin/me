@@ -1,0 +1,8 @@
+a {
+    color: var(--lnk-clr);
+    text-decoration: none;
+}
+
+h2 {
+    color: var(--h2-clr);
+}
