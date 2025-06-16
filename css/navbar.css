@@ -8,5 +8,5 @@ ul {
   line-height: 3vh;
 }
 
-nav {width: 15%;}
+nav {width: 15%; border-right: var(--bdr-wdth) var(--line-clr) solid;}
 main {flex: 1;}

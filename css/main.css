@@ -12,6 +12,16 @@ html {
 /* makes the header and div have a border */
 
 header, div {
-    border: 0.1rem var(--line-clr) solid;
+    border: var(--bdr-wdth) var(--line-clr) solid;
     margin: 1rem;
 }
+
+header {
+    height: var(--head-ht);
+    padding-top: calc(var(--head-ht)/3);
+    background-image: var(--head-bkg);
+    background-size: cover;
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+}
+
