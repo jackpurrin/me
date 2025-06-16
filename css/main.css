@@ -15,13 +15,3 @@ header, div {
     border: 0.1rem var(--line-clr) solid;
     margin: 1rem;
 }
-
-/* the nav bar */
-
-ul {
-  list-style-type: none;
-  float: left;
-}
-
-li {line-height: 3vh;}
-
