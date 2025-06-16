@@ -7,4 +7,5 @@
   --bdr-wdth: 0.2rem;
   --head-ht: 10vh;
   --head-bkg: url(https://jackpurrin.me/assets/images/main.webp);
+  --head-blr: blur(5rem);
 }

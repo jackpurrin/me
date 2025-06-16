@@ -22,8 +22,8 @@ header {
     padding-top: calc(var(--head-ht)/3);
     background-image: var(--head-bkg);
     background-size: cover;
-    filter: blur(25px);
-    -webkit-filter: blur(25px);
+    filter: var(--head-blr);
+    -webkit-filter: var(--head-blr);
 }
 
 main {
