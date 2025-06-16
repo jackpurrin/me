@@ -8,7 +8,6 @@ html {
     color: var(--txt-clr);
     text-align: center;
     overflow: scroll;
-    font-size: var(--txt-size);
 }
 
 /* makes the header and div have a border */
@@ -31,3 +30,5 @@ header {
 main {
     margin: auto 0;
 }
+
+

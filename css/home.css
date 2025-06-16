@@ -1,15 +1,6 @@
 @import url(main.css);
 @import url(navbar.css);
 
-button {
-    font-size: calc(var(--txt-size) * 1.5);
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--lnk-clr);
-    background-color: transparent;
-    border: none;
-}
-
 #statuscafe, #statuscafe-content, #statuscafe-username {
     border: none !important;;
 }

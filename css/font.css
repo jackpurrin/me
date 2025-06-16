@@ -1,6 +1,8 @@
 html,
-body {
+body,
+button {
     font-family: monospace;
+    font-size: var(--txt-size);
 }
 
 a {
