@@ -16,17 +16,12 @@ header, div {
     margin: 1rem;
 }
 
-/* allows for the movement of my divs */
+/* the nav bar */
 
-main {
-    display: flex;
-    justify-content: center;
+ul {
+  list-style-type: none;
+  float: left;
 }
 
-/* makes the images responsive */
-
-img {
-    max-width: 100%;
-    height: auto;
-}
+li {line-height: 3vh;}
 
