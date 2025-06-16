@@ -16,7 +16,7 @@
 ## Beta/Dev Versions of my website
 ### [Main Domain](https://d.jackpurrin.me/)
 
-### [Cloudflare Pages Mirror](dev-e0a.pages.dev)
+### [Cloudflare Pages Mirror](https://dev-e0a.pages.dev)
 
 ## TODO:
 
