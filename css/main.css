@@ -1,5 +1,6 @@
 @import url(vars.css);
 @import url(font.css);
+@import url(footer.css);
 
 /* sets the main styling, colors and text align */
 
@@ -7,6 +8,7 @@ html {
     background-color: var(--bkg-clr);
     color: var(--txt-clr);
     text-align: center;
+    overflow: scroll;
 }
 
 /* makes the header and div have a border */
@@ -25,3 +27,6 @@ header {
     -webkit-filter: blur(25px);
 }
 
+main {
+    margin: auto 0;
+}
