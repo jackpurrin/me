@@ -1,21 +1,35 @@
 // Get the root element
 const r = document.querySelector(':root');
-let theme = 1;
+let theme = -10
 
-function change() {
-    theme = theme + 1;
-    if (theme == 4) {
-        theme = 1;
+    if (localStorage.key(0) == null) {
+        theme = 0;
     }
-    if (theme == 1) {
+    if (localStorage.key(0) != null) {
+        theme = localStorage.key(0) 
+    }
+    setTheme()
+
+function changeTheme() {
+    theme = theme + 1;
+    setTheme()
+}
+
+function setTheme() {
+    if (theme >= 3) {
+        theme = 0;
+    }
+    if (theme == 0) {
         main()
     }
-    if (theme == 2) {
+    if (theme == 1) {
         moon()
     }
-    if (theme == 3) {
+    if (theme == 2) {
         dawn()
     }
+    localStorage.clear()
+    localStorage.setItem(theme, 0)
 }
 
 function main() {
