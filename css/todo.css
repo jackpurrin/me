@@ -1,0 +1,9 @@
+@import url(main.css);
+
+ul {
+    list-style: inside square;
+}
+
+li {
+    line-height: 1.5rem;
+}
