@@ -243,7 +243,11 @@ function displayComments(comments) {
         } else {
             container = document.getElementById(parentId + "-replies");
         }
-        reply.classNamecsss = document.getElementsByClassName("c-replyContainer");
+        reply.className = "c-reply";
+        container.appendChild(reply);
+    }
+    if (s_collapsedReplies) {
+        const containers = document.getElementsByClassName("c-replyContainer");
         for (i = 0; i < containers.length; i += 1) {
             const num = containers[i].childNodes.length;
             const parentDiv = containers[i].parentElement;
