@@ -78,6 +78,10 @@ label {
     padding: 4px;
     border-radius: 4px;
     outline: none;
+    background-color: #1f1d2e;
+    border: var(--bdr-wdth) solid var(--line-clr);
+    color: var(--txt-clr)
+    
 }
 
 .c-textInput {
