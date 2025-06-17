@@ -31,6 +31,9 @@ header {
 main {
     margin: auto 0;
     padding: calc(var(--head-ht) / 2);
-    height: 70vh;
+}
+
+.wrapper {
+    height: 80vh;
     overflow: scroll;
 }
