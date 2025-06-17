@@ -14,7 +14,7 @@
 ### [Neocities](https://jackpurrin.neocities.org/)
 
 ## Beta/Dev Versions of my website
-### [Main Domain](https://d.jackpurrin.me/)
+### [Main Domain](https://dev.jackpurrin.me/)
 
 ### [Cloudflare Pages Mirror](https://dev-e0a.pages.dev)
 
