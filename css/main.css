@@ -31,4 +31,5 @@ header {
 
 main {
     margin: auto 0;
+    padding-bottom: calc(var(--head-ht) / 3);
 }
