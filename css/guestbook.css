@@ -2,6 +2,7 @@
 
 #c_container {
     margin-top: 10px;
+    border: none;
 }
 .c-input:focus {
     border: 2px solid pink;
@@ -27,6 +28,7 @@ label {
     font-family: "Trebuchet MS";
     font-size: 14px;
     color: #211f24;
+    border: none;
 }
 
 #c_widget button,
@@ -37,14 +39,12 @@ label {
     text-align: center;
     background-color: white;
     color: pink;
-    border: 1px solid pink;
-    border-radius: 5px;
     margin: auto;
+    border-radius: 4px;
 }
 #c_widget button:hover,
 #c_widget input[type="submit"]:hover {
     background-color: pink;
-    border: 1px solid pink;
 }
 #c_widget button:disabled,
 #c_widget input[type="submit"]:disabled {
@@ -54,14 +54,12 @@ label {
 #c_widget input[type="submit"]:disabled:hover {
     background-color: white;
     color: pink;
-    border: 1px solid pink;
 }
 
 #c_inputDiv {
     padding: 10px;
     text-transform: lowercase;
-    border: 2px solid pink;
-    border-radius: 5px;
+    border: none;
     color: white;
 }
 
@@ -74,6 +72,7 @@ label {
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
+    border: none;
 }
 .c-input {
     padding: 4px;
@@ -91,9 +90,8 @@ label {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    border-radius: 4px;
     color: white;
-    border: pink 2px solid;
+    border: none;
 }
 .c-reply {
     margin-top: 10px;
@@ -134,6 +132,7 @@ label {
 
 #c_pagination {
     text-align: center;
+    border: none;
 }
 .c-replyButton {
     display: none;
