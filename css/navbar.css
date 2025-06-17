@@ -8,13 +8,6 @@ ul {
   line-height: 3vh;
 }
 
-button {
-    cursor: pointer;
-    color: var(--lnk-clr);
-    background-color: transparent;
-    border: none;
-}
-
 nav {width: 15%; border-right: var(--bdr-wdth) var(--line-clr) solid;}
 main {flex: 1;}
 
