@@ -1,0 +1,34 @@
+@import url(vars.css);
+@import url(fonts.css);
+@import url(navbar.css);
+
+
+/* sets the main styling, colors and text align */
+
+html {
+    background-color: var(--bkg-clr);
+    color: var(--txt-clr);
+    text-align: center;
+    overflow: scroll;
+}
+
+/* makes the header and div have a border */
+
+header,
+div {
+    border: var(--bdr-wdth) var(--line-clr) solid;
+    margin: 1rem;
+}
+
+header {
+    height: var(--head-ht);
+    padding-top: calc(var(--head-ht) / 3);
+    background-image: var(--head-bkg);
+    background-size: cover;
+    filter: var(--head-blr);
+    -webkit-filter: var(--head-blr);
+}
+
+main {
+    margin: auto 0;
+}

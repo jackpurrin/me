@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px 35px;
+  line-height: 3vh;
+}
+
+button {
+    cursor: pointer;
+    color: var(--lnk-clr);
+    background-color: transparent;
+    border: none;
+}
+
+nav {width: 15%; border-right: var(--bdr-wdth) var(--line-clr) solid;}
+main {flex: 1;}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+    }
+  nav {
+    width: 100% !important;;
+  }
+}

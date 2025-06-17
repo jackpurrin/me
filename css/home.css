@@ -1,0 +1,5 @@
+@import url(main.css);
+
+#statuscafe, #statuscafe-content, #statuscafe-username {
+    border: none !important;;
+}
