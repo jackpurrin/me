@@ -1,0 +1,16 @@
+
+@import url(main.css);
+
+main p {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+p, ul {
+    font-family: Serif !important;;
+}
+
+main ul {
+    list-style: unset;
+    line-height: 3vh;
+}
