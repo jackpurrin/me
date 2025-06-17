@@ -1,21 +1,26 @@
 .wrapper {
-  display: flex;
+    display: flex;
 }
 
 ul {
-  list-style-type: none;
-  padding: 15px 35px;
-  line-height: 3vh;
+    list-style-type: none;
+    padding: 15px 35px;
+    line-height: 3vh;
 }
 
-nav {width: 15%; border-right: var(--bdr-wdth) var(--line-clr) solid;}
-main {flex: 1;}
+nav {
+    width: 15%;
+    border-right: var(--bdr-wdth) var(--line-clr) solid;
+}
+main {
+    flex: 1;
+}
 
 @media screen and (max-width: 600px) {
     .wrapper {
         flex-direction: column;
     }
-  nav {
-    width: 100% !important;;
-  }
+    nav {
+        width: 100% !important;
+    }
 }

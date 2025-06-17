@@ -80,8 +80,7 @@ label {
     outline: none;
     background-color: #1f1d2e;
     border: var(--bdr-wdth) solid var(--line-clr);
-    color: var(--txt-clr)
-    
+    color: var(--txt-clr);
 }
 
 .c-textInput {

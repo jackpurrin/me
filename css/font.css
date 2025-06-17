@@ -15,6 +15,6 @@ h2 {
 
 strong {
     font-weight: 900;
-    font-size: calc(var(--txt-size)*1.2);
+    font-size: calc(var(--txt-size) * 1.2);
     color: var(--cur-lnk-clr);
 }

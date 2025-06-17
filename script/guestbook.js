@@ -146,7 +146,7 @@ function getComments() {
         let pageIdx = json.table.cols.findIndex(isPage);
         let comments = [];
         if (json.table.parsedNumHeaders > 0) {
-            let r = 0
+            let r = 0;
             for (r = 0; r < json.table.rows.length; r += 1) {
                 let val1;
                 if (!json.table.rows[r].c[pageIdx]) {
