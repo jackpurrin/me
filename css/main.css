@@ -18,6 +18,7 @@ header,
 div {
     border: var(--bdr-wdth) var(--line-clr) solid;
     margin: 1rem;
+    padding-bottom: 1rem;
 }
 
 header {
