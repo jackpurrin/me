@@ -31,4 +31,6 @@ header {
 main {
     margin: auto 0;
     padding: calc(var(--head-ht) / 2);
+    height: 70vh;
+    overflow: scroll;
 }
