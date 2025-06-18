@@ -9,3 +9,7 @@
 #statuscafe {
     height: 1.5rem;
 }
+
+#album-cover{
+    border-radius: 10px;
+}
