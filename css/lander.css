@@ -1,0 +1,11 @@
+@import url(main.css);
+
+.ucard {
+    display: none;
+}
+.wrapper {
+    padding: 1rem;
+}
+i {
+    font-family: serif;
+}

@@ -1,79 +1,39 @@
-.bg-image {
-    background-image: url("/assets/images/main.webp");
-}
+@import url(vars.css);
+@import url(font.css);
+@import url(navbar.css);
 
-p,
-li {
-    font-size: calc(0.5rem + 0.5vw);
-}
-h2 {
-    font-size: calc(0.8rem + 0.8vw);
-}
-nav a {
-    margin: 15px 8px;
-}
+/* sets the main styling, colors and text align */
 
-body,
 html {
-    background-color: #222;
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.bg-image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(60px);
-    -webkit-filter: blur(60px);
-    position: fixed;
-    width: 100%;
-    height: 100%;
-}
-
-.bg-text {
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
-    border: 5px solid rgba(255, 192, 203, 0.5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    width: 50%;
-    padding: 20px;
+    background-color: var(--bkg-clr);
+    color: var(--txt-clr);
     text-align: center;
-    max-height: 80%;
-    overflow-x: scroll;
+    overflow: scroll;
 }
 
-.title {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 150;
-    color: white !important;
-    font-size: calc(1.4rem + 1.4vw);
+/* makes the header and div have a border */
+
+header,
+div {
+    border: var(--bdr-wdth) var(--line-clr) solid;
+    margin: 1rem;
 }
 
-a {
-    font-size: calc(0.5rem + 0.5vw);
-    text-decoration: none;
-    position: relative;
-    color: #c4a7e7;
+header {
+    height: var(--head-ht);
+    padding-top: calc(var(--head-ht) / 3);
+    background-image: var(--head-bkg);
+    background-size: cover;
+    filter: var(--head-blr);
+    -webkit-filter: var(--head-blr);
 }
 
-a::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    left: 0;
-    bottom: -2px;
-    background: linear-gradient(50deg, #5bcefa, #f5a9b8, white, #f5a9b8, #5bcefa);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s ease-in-out;
+main {
+    margin: auto 0;
+    padding: calc(var(--head-ht) / 2);
 }
-a:hover::after {
-    transform: scaleX(1);
+
+.wrapper {
+    height: 80vh;
+    overflow: scroll;
 }

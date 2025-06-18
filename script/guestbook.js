@@ -50,8 +50,6 @@ const v_mainHtml = `
     <div id="c_container">${s_loadingText}</div>
 `;
 const v_formHtml = `
-    <a class="title" href="/">guestbook</a>
-
     <div id="c_nameWrapper" class="c-inputWrapper">
         <label class="c-label c-nameLabel" for="entry.${s_nameId}">${s_nameFieldLabel}</label>
         <input class="c-input c-nameInput" name="entry.${s_nameId}" id="entry.${s_nameId}" type="text" maxlength="${s_maxLengthName}" required>
@@ -148,6 +146,7 @@ function getComments() {
         let pageIdx = json.table.cols.findIndex(isPage);
         let comments = [];
         if (json.table.parsedNumHeaders > 0) {
+            let r = 0;
             for (r = 0; r < json.table.rows.length; r += 1) {
                 let val1;
                 if (!json.table.rows[r].c[pageIdx]) {

@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 15px 35px;
+    line-height: 3vh;
+}
+
+nav {
+    width: 15%;
+}
+main {
+    flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    nav {
+        width: 100% !important;
+    }
+}
