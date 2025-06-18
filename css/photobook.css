@@ -1,0 +1,6 @@
+@import url(main.csss);
+
+img {
+    max-width: 20%;
+    max-width: 50vw;
+}
