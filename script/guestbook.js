@@ -1,4 +1,4 @@
-const s_stylePath = "/css/guestbook.css";
+const s_stylePath = "";
 const s_formId = "1FAIpQLSfNs1C5gok6NGwYFI1uNLzej8OLdetaTeX7qY3XSCyyKmotVA";
 const s_nameId = "488959249";
 const s_websiteId = "1782451882";

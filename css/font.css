@@ -2,6 +2,7 @@ html,
 body {
     font-family: monospace;
     font-size: var(--txt-size);
+    text-align: center;
 }
 
 a {
