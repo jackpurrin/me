@@ -4,13 +4,8 @@
 
 ul {
     list-style-type: none;
-    padding: 15px 35px;
-    line-height: 3vh;
 }
 
-nav {
-    width: 15%;
-}
 main {
     flex: 1;
 }
@@ -23,3 +18,8 @@ main {
         width: 100% !important;
     }
 }
+
+iframe {
+    height: 100vh;
+    border: none;
+}   
