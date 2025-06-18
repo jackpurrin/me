@@ -1,4 +1,5 @@
 @import url(font.css);
+@import url(vars.css);
 
 .wrapper {
     display: flex;
