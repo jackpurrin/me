@@ -2,6 +2,7 @@
 
 html, body{
     background-image: url(/assets/img/main.webp);
+    background-size: cover;
 }
 
 main {
