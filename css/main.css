@@ -1,7 +1,8 @@
 @import url(vars.css);
 @import url(fonts.css);
 
-html, body{
+html,
+body {
     background-image: url(/assets/img/main.webp);
     background-size: cover;
 }
@@ -21,18 +22,26 @@ main {
 
 aside {
     position: absolute;
-    left: 75%;
-    top: 50%;
+    left: 70%;
+    top: 18%;
     width: 15vw;
 }
 
 nav {
     position: absolute;
     left: 15%;
-    top: 50%;
+    top: 18%;
 }
 
 iframe {
-width: 15vw;
-border: none;
+    width: 15vw;
+    height: 65vh;
+    border: none;
+    background-color: var(--bkg-clr);
+}
+
+header {
+    position: absolute;
+    left: 47.8%;
+    top: 5%;
 }
