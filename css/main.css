@@ -17,7 +17,6 @@ main {
     overflow: scroll;
     background-color: var(--bkg-clr);
     border: var(--border-clr) 6px double;
-    padding: 2rem;
 }
 
 aside {
@@ -33,16 +32,26 @@ nav {
     top: 18%;
 }
 
-iframe {
+main iframe {
+    width: inherit;
+    height: inherit;
+}
+
+nav iframe,
+aside iframe {
     width: 15vw;
     height: 65vh;
     border: none;
     background-color: var(--bkg-clr);
 }
 
+iframe {
+    border: none;
+}
+
 header {
     position: absolute;
-    left: 47.8%;
+    left: 41%;
     top: 5%;
 }
 
