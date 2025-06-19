@@ -1,7 +1,7 @@
 @import url(vars.css);
 
 html, body{
-    background-color: url(/assets/img/main.webp);
+    background-image: url(/assets/img/main.webp);
 }
 
 main {
