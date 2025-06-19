@@ -45,3 +45,7 @@ header {
     left: 47.8%;
     top: 5%;
 }
+
+.u-card {
+    display: none;
+}
