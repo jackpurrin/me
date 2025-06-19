@@ -18,3 +18,21 @@ main {
     border: var(--border-clr) 6px double;
     padding: 2rem;
 }
+
+aside {
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    width: 15vw;
+}
+
+nav {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+
+iframe {
+width: 15vw;
+border: none;
+}
