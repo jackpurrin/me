@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'main';
+    src: url('/assets/fonts/main.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+
+html, body{
+    font-family: main;
+}
+
+}
