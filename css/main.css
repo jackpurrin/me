@@ -6,7 +6,7 @@ html, body{
 }
 
 main {
-    color: #575279;
+    color: rgba(76, 79, 105, 0.7);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -15,5 +15,7 @@ main {
     height: 65vh;
     overflow: scroll;
     text-align: center;
-    background-color: #f2e9e1;
+    background-color: rgba(239, 241, 245, 0.7);
+    border: rgb(202, 158, 230) 6px double;
+    padding: 2rem;
 }
