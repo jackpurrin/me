@@ -6,7 +6,7 @@ html, body{
 }
 
 main {
-    color: rgba(76, 79, 105, 0.7);
+    color: var(--text-clr);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -15,7 +15,7 @@ main {
     height: 65vh;
     overflow: scroll;
     text-align: center;
-    background-color: rgba(239, 241, 245, 0.7);
-    border: rgb(202, 158, 230) 6px double;
+    background-color: var(--bkg-clr);
+    border: var(--border-clr) 6px double;
     padding: 2rem;
 }
