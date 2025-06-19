@@ -7,7 +7,6 @@ html, body{
 }
 
 main {
-    color: var(--text-clr);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -15,7 +14,6 @@ main {
     width: 35vw;
     height: 65vh;
     overflow: scroll;
-    text-align: center;
     background-color: var(--bkg-clr);
     border: var(--border-clr) 6px double;
     padding: 2rem;

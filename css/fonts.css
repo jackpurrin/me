@@ -1,21 +1,5 @@
-@font-face {
-    font-family: 'text';
-    src: url('/assets/fonts/text.woff') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'header';
-    src: url('/assets/fonts/header.woff') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html, body{
-    font-family: text;
-}
-
-h1, h2, h3{
-    font-family: header;
+    font-family: monospace;
+    text-align: center;
+    color: var(--text-clr);
 }
