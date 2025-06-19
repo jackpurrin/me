@@ -1,11 +1,5 @@
 @import url(main.css);
 
-.ucard {
+.u-card {
     display: none;
-}
-.wrapper {
-    padding: 1rem;
-}
-i {
-    font-family: serif;
 }
