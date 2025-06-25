@@ -1,60 +1,12 @@
 @import url(vars.css);
-@import url(fonts.css);
+@import url(fonts.css); 
 
-html,
-body {
-    background-image: url(/assets/img/main.webp);
-    background-size: cover;
-}
-
-main {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 35vw;
-    height: 65vh;
-    overflow: scroll;
-    background-color: var(--bkg-clr);
-    border: var(--border-clr) 6px double;
-}
-
-aside {
-    position: absolute;
-    left: 70%;
-    top: 18%;
-    width: 15vw;
-}
-
-nav {
-    position: absolute;
-    left: 15%;
-    top: 18%;
-}
-
-main iframe {
-    width: inherit;
-    height: inherit;
-}
-
-nav iframe,
-aside iframe {
-    width: 15vw;
-    height: 65vh;
-    border: none;
+html {
+    width: 500px;
+    margin: auto;
     background-color: var(--bkg-clr);
 }
 
-iframe {
-    border: none;
-}
-
-header {
-    position: absolute;
-    left: 41%;
-    top: 5%;
-}
-
-.u-card {
-    display: none;
+a {
+    color: var(--link-clr)
 }

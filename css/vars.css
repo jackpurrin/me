@@ -1,5 +1,5 @@
 :root{
-    --border-clr: rgb(202, 158, 230) ;
-    --text-clr: rgba(76, 79, 105, 0.7);
-    --bkg-clr: rgba(239, 241, 245, 0.7);
+    --text-clr: rgb(224, 222, 244);
+    --bkg-clr: rgb(25, 23, 36);
+    --link-clr: rgb(49, 116, 143);
 }
