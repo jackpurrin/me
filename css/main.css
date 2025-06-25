@@ -10,3 +10,9 @@ html {
 a {
     color: var(--link-clr)
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
