@@ -2,17 +2,24 @@
 @import url(fonts.css); 
 
 html {
-    width: 500px;
-    margin: auto;
     background-color: var(--bkg-clr);
-}
-
-a {
-    color: var(--link-clr)
+    width: 1000px;
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+main {
+    width: 700px;
+    padding: 20px;
+    float: left;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+    overflow: hidden;
 }

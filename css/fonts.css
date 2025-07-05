@@ -2,4 +2,10 @@ html, body{
     font-family: monospace;
     text-align: center;
     color: var(--text-clr);
+    font-size: 1rem;
+}
+
+a {
+    color: var(--link-clr);
+    text-decoration: underline wavy;
 }
