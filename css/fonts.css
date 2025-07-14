@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     font-family: monospace;
     text-align: center;
     color: var(--text-clr);
@@ -7,5 +8,5 @@ html, body{
 
 a {
     color: var(--link-clr);
-    text-decoration: underline wavy;
+    text-decoration: none;
 }
