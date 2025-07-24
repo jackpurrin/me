@@ -5,7 +5,7 @@
 
 html,
 body {
-    font-family: monoterm;
+    font-family: monoterm, monospace, serif;
     text-align: center;
     color: var(--text-clr);
     font-size: 0.9rem;
