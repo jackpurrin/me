@@ -14,8 +14,9 @@ main {
   height: 15vh;
 }
 
-.clouds {
-  position: absolute;
-  top: -10rem;
-  width: 100%;
+.site {
+  background-image: linear-gradient(to left, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
