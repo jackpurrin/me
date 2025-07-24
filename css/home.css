@@ -1,26 +1,12 @@
 @import url(main.css);
 @import url(drop.css);
 
-main {
-  line-height: 1rem !important;
-  font-size: 0.85rem;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-  text-transform: lowercase;
-}
-
 .cat {
   position: fixed;
   right: 0px;
   bottom: 0px;
   width: 10vw;
   height: 15vh;
-}
-
-.site {
-  background-image: linear-gradient(to left, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 
 li {

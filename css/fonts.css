@@ -1,12 +1,34 @@
+@font-face {
+    font-family: 'monoterm';
+    src: url('/assets/fonts/term.woff') format('woff');
+}
+
 html,
 body {
-    font-family: monospace;
+    font-family: monoterm;
     text-align: center;
     color: var(--text-clr);
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1rem !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-transform: lowercase;
 }
 
 a {
     color: var(--link-clr);
     text-decoration: none;
 }
+
+.site {
+  background-image: linear-gradient(to left, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+p {width: 35%;}
+p::selection, a::selection, h1::selection, h2::selection {background-color: var(--sel-clr);}
+h1,h2,h3 {color: var(--head-clr)}
+
+
