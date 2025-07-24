@@ -16,6 +16,6 @@ main {
 
 .clouds {
   position: absolute;
-  top: -250;
+  top: -10rem;
   width: 100%;
 }
