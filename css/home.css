@@ -1,9 +1,11 @@
 @import url(main.css);
+@import url(drop.css);
 
 main {
-  line-height: 1rem;
+  line-height: 1rem !important;
   font-size: 0.85rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-transform: lowercase;
 }
 
 .cat {
@@ -20,3 +22,12 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
 }
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navelements {display:none}
+.show {display: block !important;}
