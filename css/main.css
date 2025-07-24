@@ -24,3 +24,9 @@ footer {
     width: 40%;
     padding-left: 10px;
 }
+
+.clouds {
+  position: absolute;
+  top: -10rem;
+  width: 100%;
+}
