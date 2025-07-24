@@ -3,6 +3,7 @@
 main {
   line-height: 1rem;
   font-size: 0.85rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
 .cat {
@@ -11,4 +12,10 @@ main {
   bottom: 0px;
   width: 10vw;
   height: 15vh;
+}
+
+.clouds {
+  position: absolute;
+  top: -250;
+  width: 100%;
 }
