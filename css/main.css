@@ -8,6 +8,8 @@ html, main, body {
 }
 
 p {width: 35%;}
+p::selection, a::selection, h1::selection, h2::selection {background-color: var(--sel-clr);}
+h1,h2,h3 {color: var(--head-clr)}
 
 main {
     display: flex;
