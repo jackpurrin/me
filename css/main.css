@@ -1,32 +1,14 @@
 @import url(vars.css);
 @import url(fonts.css); 
 
-html {
+html, main, body {
     background-color: var(--bkg-clr);
-    width: 1000px;
-}
-
-ul {
-    list-style: none;
+    height: 100%;
     margin: 0;
-    padding: 0;
 }
 
 main {
-    width: 700px;
-    padding: 20px;
-    float: left;
-}
-
-nav {
-    float: right;
-    padding: 20px;
-    padding-top: 10vh;
-    overflow: hidden;
-}
-
-header {
-    float: left;
-    font-size: 24px;
-    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
