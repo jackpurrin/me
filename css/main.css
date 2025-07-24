@@ -3,9 +3,11 @@
 
 html, main, body {
     background-color: var(--bkg-clr);
-    height: 100%;
     margin: 0;
+    overflow: scroll;
 }
+
+p {width: 35%;}
 
 main {
     display: flex;

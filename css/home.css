@@ -1,5 +1,10 @@
 @import url(main.css);
 
+main {
+  line-height: 1rem;
+  font-size: 0.85rem;
+}
+
 .cat {
   position: fixed;
   right: 0px;
