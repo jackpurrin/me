@@ -23,6 +23,15 @@ footer {
     padding-left: 10px;
 }
 
+li {
+  list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 .clouds {
   position: absolute;
   top: -10rem;

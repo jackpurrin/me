@@ -9,11 +9,5 @@
   height: 15vh;
 }
 
-li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 #navelements {display:none}
 .show {display: block !important;}
