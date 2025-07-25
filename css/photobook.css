@@ -1,0 +1,15 @@
+@import url(main.css);
+
+.wine {
+    width: 15vw;
+}
+
+.sky {
+    width: 30vw;
+    border-radius: 15px;
+}
+
+p {
+    margin: auto;
+    padding-top: 1.5vh;
+}
