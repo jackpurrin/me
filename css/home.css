@@ -2,12 +2,16 @@
 @import url(drop.css);
 
 .cat {
-  position: fixed;
-  right: 0px;
-  bottom: 0px;
-  width: 10vw;
-  height: 15vh;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 10vw;
+    height: 15vh;
 }
 
-#navelements {display:none}
-.show {display: block !important;}
+#navelements {
+    display: none;
+}
+.show {
+    display: block !important;
+}

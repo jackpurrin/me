@@ -40,6 +40,8 @@
     font-size: 16px;
 }
 
-.member, .members-count, .message {
+.member,
+.members-count,
+.message {
     border: none;
-}   
+}

@@ -1,7 +1,9 @@
 @import url(vars.css);
-@import url(fonts.css); 
+@import url(fonts.css);
 
-html, main, body {
+html,
+main,
+body {
     background-color: var(--bkg-clr);
     margin: 0;
     overflow: scroll;
@@ -24,7 +26,7 @@ footer {
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 ul {
@@ -33,8 +35,8 @@ ul {
 }
 
 .clouds {
-  position: absolute;
-  top: -10rem;
-  width: 100%;
-  pointer-events: none;
+    position: absolute;
+    top: -10rem;
+    width: 100%;
+    pointer-events: none;
 }

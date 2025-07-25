@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'monoterm';
-    src: url('/assets/fonts/term.woff') format('woff');
+    font-family: "monoterm";
+    src: url("/assets/fonts/term.woff") format("woff");
 }
 
 html,
@@ -10,7 +10,7 @@ body {
     color: var(--text-clr);
     font-size: 0.9rem;
     line-height: 1rem !important;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-transform: lowercase;
 }
 
@@ -20,14 +20,23 @@ a {
 }
 
 .site {
-  background-image: linear-gradient(to left, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+    background-image: linear-gradient(to left, #5bcefa, #f5a9b8, #ffffff, #f5a9b8, #5bcefa);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
-p {width: 35%;}
-p::selection, a::selection, h1::selection, h2::selection {background-color: var(--sel-clr);}
-h1,h2,h3 {color: var(--head-clr)}
-
-
+p {
+    width: 35%;
+}
+p::selection,
+a::selection,
+h1::selection,
+h2::selection {
+    background-color: var(--sel-clr);
+}
+h1,
+h2,
+h3 {
+    color: var(--head-clr);
+}

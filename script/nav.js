@@ -1,3 +1,3 @@
 function hideshow() {
-  document.getElementById("navelements").classList.toggle("show");
+    document.getElementById("navelements").classList.toggle("show");
 }
