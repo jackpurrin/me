@@ -1,0 +1,16 @@
+@import url(main.css);
+
+.ring h2 {
+    display: inline;
+}
+
+main {
+    line-height: 2rem;
+}
+
+.buttons {
+      display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
