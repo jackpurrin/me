@@ -1,15 +1,17 @@
 @import url(main.css);
+@import url(drop.css);
 
-#statuscafe,
-#statuscafe-content,
-#statuscafe-username {
-    border: none !important;
+.cat {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 10vw;
+    height: 15vh;
 }
 
-#statuscafe {
-    height: 1.5rem;
+#navelements {
+    display: none;
 }
-
-#album-cover{
-    border-radius: 10px;
+.show {
+    display: block !important;
 }

@@ -1,8 +1,10 @@
 @import url(main.css);
 
 .commits {
-    max-width: 50%;
     margin: auto;
     overflow: scroll;
-    border: none;
+}
+
+p {
+    width: 100% !important;
 }

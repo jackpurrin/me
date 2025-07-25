@@ -1,38 +1,42 @@
 @import url(vars.css);
-@import url(font.css);
-@import url(navbar.css);
+@import url(fonts.css);
 
-/* sets the main styling, colors and text align */
-
-html {
+html,
+main,
+body {
     background-color: var(--bkg-clr);
-    color: var(--txt-clr);
+    margin: 0;
     overflow: scroll;
-}
-
-/* makes the header and div have a border */
-
-header,
-div {
-    border: var(--bdr-wdth) var(--line-clr) solid;
-    margin: 1rem;
-}
-
-header {
-    height: var(--head-ht);
-    padding-top: calc(var(--head-ht) / 3);
-    background-image: var(--head-bkg);
-    background-size: cover;
-    filter: var(--head-blr);
-    -webkit-filter: var(--head-blr);
 }
 
 main {
-    margin: auto 0;
-    padding: calc(var(--head-ht) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.wrapper {
-    height: 80vh;
-    overflow: scroll;
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    width: 40%;
+    padding-left: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.clouds {
+    position: absolute;
+    top: -10rem;
+    width: 100%;
+    pointer-events: none;
 }

@@ -1,13 +1,7 @@
 :root {
-    --bkg-clr: #191724;
-    --lnk-clr: #c4a7e7;
-    --cur-lnk-clr: #eb6f92;
-    --txt-clr: #e0def4;
-    --line-clr: #524f67;
-    --h2-clr: #6e6a86;
-    --bdr-wdth: 0.2rem;
-    --txt-size: 1rem;
-    --head-ht: 10vh;
-    --head-bkg: url(/assets/img/header.webp);
-    --head-blr: blur(5rem);
+    --text-clr: rgb(224, 222, 244);
+    --bkg-clr: rgb(25, 23, 36);
+    --link-clr: rgb(196, 167, 231);
+    --sel-clr: rgb(64, 61, 82);
+    --head-clr: rgb(144, 140, 170);
 }
