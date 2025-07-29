@@ -38,3 +38,9 @@ ul {
     width: 100%;
     pointer-events: none;
 }
+
+.cornerling {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}

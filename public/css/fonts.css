@@ -8,7 +8,7 @@ body {
     font-family: nerdserif, serif, monospace;
     text-align: center;
     color: var(--text-clr);
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1rem !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-transform: lowercase;
