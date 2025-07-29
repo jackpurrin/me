@@ -9,14 +9,14 @@
 ## URLs to my website:
 ### [Main Domain](https://jackpurrin.me/)  
 
-### [Cloudflare Pages Mirror](https://jackpurrin-me.pages.dev)
+### [Cloudflare Workers Mirror](https://me.jackpurrin.workers.dev)
 
-### [Neocities](https://jackpurrin.neocities.org/)
+### [Nekoweb](https://jackpurrin.nekoweb.org/)
 
 ## Beta/Dev Versions of my website
 ### [Main Domain](https://dev.jackpurrin.me/)
 
-### [Cloudflare Pages Mirror](https://dev-e0a.pages.dev)
+### [Cloudflare Workers Mirror](https://dev.jackpurrin.workers.dev/)
 
 ## TODO:
 
