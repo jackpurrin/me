@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "monoterm";
-    src: url("/assets/fonts/term.woff") format("woff");
+    font-family: "nerdserif";
+    src: url("/assets/fonts/nerdserif.woff") format("woff");
 }
 
 html,
 body {
-    font-family: monoterm, monospace, serif;
+    font-family: nerdserif, serif, monospace;
     text-align: center;
     color: var(--text-clr);
     font-size: 0.9rem;
