@@ -5,7 +5,7 @@ function follow(domain, event) {
     if(!confirm('Are you sure you want to ' + (following ? 'unfollow' : 'follow') + ' ' + domain + '?')) {
         return;
     }
-    var url = '/api/:domain/toggle_follow'.replace(':domain', domain);
+    var url = 'https://nekoweb.org/api/:domain/toggle_follow'.replace(':domain', domain);
     fetch(url, {credentials: 'same-origin'}).then(function(response) {
         return response.json();
     }).then(function(data) {
@@ -31,7 +31,7 @@ followButtons.forEach(function(el) {
         var guest = el.getAttribute('data-guest');
         if(guest === '1') {
             var a = document.createElement('a');
-            a.href = '/follow/' + domain;
+            a.href = 'https://nekoweb.org/follow/' + domain;
             a.target = '_blank';
             a.click();
             return;
