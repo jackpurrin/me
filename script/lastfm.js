@@ -2,6 +2,8 @@ document.writeln('<h3 id="playing-indicator">Last Played Track</h3><img id="albu
 
 function loadXMLDoc() {
     var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=hackpurrin&api_key=d752a3b13539771e4341dac03444d9a7&limit=1", true);
+    xmlhttp.send();
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             nowPlaying(this);
@@ -11,8 +13,6 @@ function loadXMLDoc() {
             albumCover(this);
         }
     };
-    xmlhttp.open("GET", "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=hackpurrin&api_key=d752a3b13539771e4341dac03444d9a7&limit=1", true);
-    xmlhttp.send();
 }
 
 function trackName(xml) {
