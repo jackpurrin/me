@@ -1,3 +1,14 @@
+/**
+ * Tracks, a Last-fm scrobbles widget.
+ * Except when in "demo"-mode, widget is able to show a continuously updated tracklist.
+ *
+ *    Stig Nygaard, 2024.
+ *    https://www.rockland.dk/
+ *    https://www.last.fm/user/rockland
+ *    https://github.com/StigNygaard/lastfm-widgets
+ *    https://lastfm-widgets.deno.dev/
+ */
+
 :host {
   all: revert; /* In this webcomponent I don't want to inherit anything */
   display: block; /* By default, custom elements are "inline" */
@@ -7,6 +18,8 @@
   overflow: clip;
   max-height: 100%;
   opacity: 1;
+  color: rgb(34, 34, 34); /* #222; */
+  background-color: #fff;
   margin: 0;
   padding: 0 !important;
   line-height: 1.2 !important;
@@ -210,19 +223,29 @@ a.username {
 }
 
 #playlist a {
-    color: var(--text-clr);
+  color: rgba(34, 34, 34, 1);
 }
 
 #playlist > div {
   margin: 0;
   padding: 1px;
   border-bottom: 1px solid #eee;
-  background-color: #26233a !important;;
+  background-color: #fff;
 }
 #playlist > div:last-child {
   border-bottom: none;
 }
+#playlist > div.albuminfo {
+  display: grid;
+  grid-template-columns: [coverstart] 32px [albumlinestart] auto [end];
+  grid-template-rows: [top] 32px [bottom];
+  grid-template-areas:
+      'cover albumline';
+  column-gap: 1px;
 
+  background-color: #fbe9e9;
+  padding-right: 4px;
+}
 :host(.no-albums) #playlist > div.albuminfo {
   display: none;
 }
