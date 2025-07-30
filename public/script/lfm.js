@@ -199,7 +199,7 @@ class Tracks extends HTMLElement {
     // Fires when an instance was inserted into the document
     connectedCallback() {
         const cachevalue = new Date().toISOString().substring(0,10);
-        const basestyles = new URL('tracks.css', scriptURI);
+        const basestyles = new URL('/css/lfm.css', scriptURI);
         if (!basestyles.searchParams.get('cache')) {
             basestyles.searchParams.set('cache', cachevalue.toString());
         }
