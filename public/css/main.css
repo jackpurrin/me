@@ -14,15 +14,6 @@ main {
     flex-direction: column;
 }
 
-footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    height: 50px;
-    width: 40%;
-    padding-left: 10px;
-}
-
 li {
     list-style: none;
 }
