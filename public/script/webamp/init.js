@@ -1,4 +1,4 @@
-import Webamp from "webamp.js";
+import Webamp from "./webamp.js";
 const webamp = new Webamp({
     initialTracks: [
         {
