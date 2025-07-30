@@ -27,7 +27,7 @@ const webamp = new Webamp({
             closed: false,
         },
     },
-    enableDoubleSizeMode: true,
+    enableDoubleSizeMode: false,
 });
 
 webamp.renderWhenReady(document.getElementById("app"));
