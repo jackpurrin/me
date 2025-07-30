@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: serif, monospace;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: var(--text-clr);
     font-size: 1rem;
@@ -27,4 +27,7 @@ h1,
 h2,
 h3 {
     color: var(--head-clr);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: italic;
 }

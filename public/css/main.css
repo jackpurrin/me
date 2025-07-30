@@ -23,6 +23,11 @@ ul {
     margin: 0;
 }
 
+hr {
+    width: 40%;
+    margin: 1.2rem;
+}
+
 .clouds {
     position: absolute;
     top: -10rem;
