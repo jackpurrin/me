@@ -35,6 +35,24 @@ const webamp = new Webamp({
             duration: 190.093061,
         },
     ],
+    windowLayout: {
+        main: {
+            position: { top: 0, left: 0 },
+            shadeMode: false,
+            closed: false,
+        },
+        equalizer: {
+            position: { top: 230, left: 0 },
+            shadeMode: false,
+            closed: false,
+        },
+        playlist: {
+            position: { top: 500, left: 130 },
+            shadeMode: false,
+            closed: false,
+        },
+    },
+    enableDoubleSizeMode: true,
 });
 
 webamp.renderWhenReady(document.getElementById("app"));
