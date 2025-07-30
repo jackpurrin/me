@@ -16,6 +16,10 @@ lastfm-tracks {
   height: 290px;
 }
 
+.ndisplay {
+    display: block !important;;
+}
+
 :host {
   all: revert; /* In this webcomponent I don't want to inherit anything */
   display: block; /* By default, custom elements are "inline" */
