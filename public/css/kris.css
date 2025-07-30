@@ -1,0 +1,88 @@
+ /*@font-face { font-family: deltarune; src: url('https://fabstarotcorner.neocities.org/webring/deltarune.ttf'); } 
+ @font-face { font-family: determination; src: url('https://fabstarotcorner.neocities.org/webring/DTM-Mono.otf'); } 
+ @font-face { font-family: mercy; src: url('https://fabstarotcorner.neocities.org/webring/MERCY.otf'); } */
+    
+
+
+    .kwtfaw-img{
+        image-rendering: pixelated;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: crisp-edges;
+        margin:0px;
+        width:100%;
+    }
+ 
+    
+    
+    .kwtfaw-top{
+    display:flex;
+    flex-direction:column;
+    gap:0px;
+    }
+
+
+    .kwtfaw-div{
+      font-family:determination;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      justify-items:center;
+      align-items:center;
+      gap:0px;
+      max-width:150px;
+      
+    }
+    
+    #gfdkris{
+    display:flex;
+    justify-content:center;
+    }
+
+    kwtfaw-top{
+      > *{
+      gap:0px;
+      margin:0px;
+      padding:0px;}
+    }
+
+    .kwtfaw-controls{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+      gap:5px;
+      margin-top:2px;
+      max-width:200px;
+    }
+    .kwtfaw-text{
+      font-size:8px;
+      letter-spacing:-1px;
+      border: 1px solid white;
+      background-color:black;
+      padding:1px 3px 1px 3px;
+      color:white;
+    }
+
+    .kwtfaw-button{
+      font-size:9px;
+      font-family:determination;
+      color: #fb7f26 !important;
+      border:solid 1px black;
+      background-color:black;
+      width:30%;
+    }
+       
+    .kwtfaw-control{
+        image-rendering: pixelated;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: crisp-edges;
+        width:100%;
+    }
+
+    .kwtfaw-button:visited{
+     color: #fb7f26 !important;
+
+    }
+
+    .kwtfaw-button:hover{
+      border:solid 1px #fb7f26;
+    }
