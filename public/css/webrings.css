@@ -19,3 +19,33 @@ img {
     width: 88px; 
     height: 32px;
 }
+
+#nekowebring {
+  margin: 0 auto;
+  padding: 15px; /* creates some space around the widget */
+}
+
+#nekowebring table {
+  background: linear-gradient(#fff2df, #fff2df, #eac3be);
+  border: #c09a99 2px solid;
+  margin: 0 auto; /* centers the widget */
+  padding: 7px;
+  border-radius: 10px;
+  image-rendering: pixelated;
+}
+
+#nekowebring .webring-prev {
+  text-align: right;
+}
+
+#nekowebring .webring-info {
+  text-align: center;
+}
+
+#nekowebring .webring-next {
+  text-align: left;
+}
+
+#nekowebring .webring-links {
+  font-size: small;
+}
