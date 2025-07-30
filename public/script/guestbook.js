@@ -47,6 +47,7 @@ const v_mainHtml = `
     <div id="c_inputDiv">
         <form id="c_form" onsubmit="c_submitButton.disabled = true; v_submitted = true;" method="post" target="c_hiddenIframe" action="https://docs.google.com/forms/d/e/${s_formId}/formResponse"></form>
     </div>
+    <hr />
     <div id="c_container">${s_loadingText}</div>
 `;
 const v_formHtml = `

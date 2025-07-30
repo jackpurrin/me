@@ -42,7 +42,6 @@ if (thisIndex == null) {
                     <a href="${sites[previousIndex]}">←</a>
                     <a href="https://webring.nekoweb.org/members"><h2>nekowebring</h2></a>
                     <a href="${sites[nextIndex]}">→</a>
-                    <br />
                     <a href="javascript:void(0)" onclick="randomSite()">↺</a>
                 </div>
   `
