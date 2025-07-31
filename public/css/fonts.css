@@ -4,8 +4,8 @@ body {
     text-align: center;
     color: var(--text-clr);
     font-size: 1rem;
-    line-height: 1.5rem !important;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    line-height: 2rem !important;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
     text-transform: lowercase;
 }
 
@@ -14,9 +14,20 @@ a {
     text-decoration: none;
 }
 
-p {
-    width: 35%;
+a:hover {
+    text-decoration: underline 1px;
+    font-size: 1.1rem;
+    background-color: var(--sel-clr);
+    border-radius: 5px;
+    font-family: monospace
 }
+
+main p {
+    width: 40%;
+}
+
+p { margin: 0.5rem }
+
 p::selection,
 a::selection,
 h1::selection,
