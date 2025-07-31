@@ -16,11 +16,20 @@ a {
 
 a:hover {
     text-decoration: underline 1px;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     background-color: var(--sel-clr);
     border-radius: 5px;
     font-family: monospace;
 }
+
+h2 {
+    margin: 0;
+}
+
+h2:hover {
+    font-size: 1.3rem !important;
+}
+
 
 main p {
     width: 40%;
