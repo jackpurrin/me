@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     text-align: center;
     color: var(--text-clr);
     font-size: 1rem;
@@ -19,14 +19,16 @@ a:hover {
     font-size: 1.1rem;
     background-color: var(--sel-clr);
     border-radius: 5px;
-    font-family: monospace
+    font-family: monospace;
 }
 
 main p {
     width: 40%;
 }
 
-p { margin: 0.5rem }
+p {
+    margin: 0.5rem;
+}
 
 p::selection,
 a::selection,
@@ -38,7 +40,7 @@ h1,
 h2,
 h3 {
     color: var(--head-clr);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 500;
     font-style: italic;
 }

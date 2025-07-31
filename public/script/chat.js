@@ -34,7 +34,9 @@ drone.on("open", (error) => {
         updateMembersDOM();
     });
 
-    room.on("member_leave", ({ id }) => {
+    room.on("member_leave", ({
+        id
+    }) => {
         const index = members.findIndex((member) => member.id === id);
         members.splice(index, 1);
         updateMembersDOM();
@@ -216,11 +218,17 @@ function sendMessage() {
         return;
     }
     DOM.input.value = "";
-    drone.publish({ room: "observable-room", message: value });
+    drone.publish({
+        room: "observable-room",
+        message: value
+    });
 }
 
 function createMemberElement(member) {
-    const { name, color } = member.clientData;
+    const {
+        name,
+        color
+    } = member.clientData;
     const el = document.createElement("div");
     el.appendChild(document.createTextNode(name));
     el.className = "member";

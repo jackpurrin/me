@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>photobook - internet cafe</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
-        <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
-        <link rel="stylesheet" href="/css/images.css" />
-    </head>
 
-    <body>
-        <main>
-            <img class="clouds" src="/assets/img/clouds.png" />
-            <h1><a href="/home">photobook</a></h1>
-            <hr />
-            <div id="img-viewer">
-                <span class="close" onclick="close_model()">&times;</span>
-                <img class="modal-content" id="full-image" />
-            </div>
-            <h2>pictures i took</h2>
-            <div class="img-container">
-                <img src="/assets/img/sky.jpg" class="img-source" />
-                <img src="/assets/img/fullscreen.png" class="expand-icon" onclick="full_view(this);" />
-            </div>
-            <hr />
-            <h2>pictures i found on the internet</h2>
-            <div class="img-container">
-                <img src="/assets/img/wine.gif" class="img-source" />
-                <img src="/assets/img/fullscreen.png" class="expand-icon" onclick="full_view(this);" />
-            </div>
-            <script src="/script/images.js"></script>
-        </main>
+<head>
+    <title>photobook - internet cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="/css/images.css" />
+</head>
+
+<body>
+    <main>
+        <img class="clouds" src="/assets/img/clouds.png" />
+        <h1><a href="/home">photobook</a></h1>
+        <hr />
+        <div id="img-viewer">
+            <span class="close" onclick="close_model()">&times;</span>
+            <img class="modal-content" id="full-image" />
+        </div>
+        <h2>pictures i took</h2>
+        <div class="img-container">
+            <img src="/assets/img/sky.jpg" class="img-source" />
+            <img src="/assets/img/fullscreen.png" class="expand-icon" onclick="full_view(this);" />
+        </div>
+        <hr />
+        <h2>pictures i found on the internet</h2>
+        <div class="img-container">
+            <img src="/assets/img/wine.gif" class="img-source" />
+            <img src="/assets/img/fullscreen.png" class="expand-icon" onclick="full_view(this);" />
+        </div>
+        <script src="/script/images.js"></script>
+    </main>
     <script src="script/oneko.js"></script>
     <script src="script/cursors.js"></script>
-    </body>
+</body>
+
 </html>

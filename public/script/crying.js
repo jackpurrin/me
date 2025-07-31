@@ -7,6 +7,7 @@ for (i = 0; i < sites.length; i += 1) {
         break;
     }
 }
+
 function randomSite() {
     otherSites = sites.slice();
     otherSites.splice(thisIndex, 1);

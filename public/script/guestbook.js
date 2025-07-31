@@ -83,7 +83,7 @@ let v_commentMin = 1;
 let v_filteredWords;
 if (s_wordFilterOn) {
     v_filteredWords = s_filteredWords.join("|");
-    v_filteredWords = new RegExp(String.raw`\b(${v_filteredWords})\b`, "ig");
+    v_filteredWords = new RegExp(String.raw `\b(${v_filteredWords})\b`, "ig");
 }
 let c_submitButton;
 if (s_commentsOpen) {
@@ -125,11 +125,13 @@ c_hiddenIframe.style.display = "none";
 c_hiddenIframe.setAttribute("onload", "if(v_submitted){fixFrame()}");
 c_form.appendChild(c_hiddenIframe);
 c_hiddenIframe = document.getElementById("c_hiddenIframe");
+
 function fixFrame() {
     v_submitted = false;
     c_hiddenIframe.srcdoc = "";
     getComments();
 }
+
 function getComments() {
     c_submitButton.disabled;
     c_replyingText.style.display = "none";
@@ -179,8 +181,9 @@ function getComments() {
         c_submitButton.disabled = false;
     });
 }
+
 function getSheet(url) {
-    return new Promise(function (resolve, reject) {
+    return new Promise(function(resolve, reject) {
         fetch(url).then((response) => {
             if (!response.ok) {
                 reject("Could not find Google Sheet with that URL");
@@ -196,6 +199,7 @@ function getSheet(url) {
     });
 }
 let a_commentDivs = [];
+
 function displayComments(comments) {
     a_commentDivs = [];
     c_container.innerHTML = "";
@@ -284,6 +288,7 @@ function displayComments(comments) {
         c_container.appendChild(pagination);
     }
 }
+
 function createComment(data) {
     let comment = document.createElement("div");
     let timestamps = convertTimestamp(data.Timestamp);
@@ -324,6 +329,7 @@ function createComment(data) {
     comment.appendChild(text);
     return comment;
 }
+
 function convertTimestamp(timestamp) {
     const vals = timestamp.split("(")[1].split(")")[0].split(",");
     const date = new Date(vals[0], vals[1], vals[2], vals[3], vals[4], vals[5]);
@@ -334,6 +340,7 @@ function convertTimestamp(timestamp) {
     }
     return [offsetDate.toLocaleString(), offsetDate.toLocaleDateString()];
 }
+
 function isDST(date) {
     const dstStart = [getMonthNum(s_dstStart[0]), getDayNum(s_dstStart[1]), s_dstStart[2], s_dstStart[3]];
     const dstEnd = [getMonthNum(s_dstEnd[0]), getDayNum(s_dstEnd[1]), s_dstEnd[2], s_dstEnd[3]];
@@ -348,6 +355,7 @@ function isDST(date) {
     }
     return date;
 }
+
 function nthDayOfMonth(day, n, date, hour) {
     var count = 0;
     var idate = new Date(date);
@@ -361,6 +369,7 @@ function nthDayOfMonth(day, n, date, hour) {
     idate.setHours(hour);
     return idate;
 }
+
 function getDayNum(day) {
     let num;
     switch (day.toLowerCase()) {
@@ -391,6 +400,7 @@ function getDayNum(day) {
     }
     return num;
 }
+
 function getMonthNum(month) {
     let num;
     switch (month.toLowerCase()) {
@@ -435,6 +445,7 @@ function getMonthNum(month) {
 }
 const link = document.createElement("a");
 link.href = "#c_inputDiv";
+
 function openReply(id) {
     if (c_replyingText.style.display == "none") {
         c_replyingText.innerHTML = s_replyingText + ` ${id.split("|--|")[0]}...`;
@@ -447,6 +458,7 @@ function openReply(id) {
     }
     link.click();
 }
+
 function expandReplies(id) {
     const targetDiv = document.getElementById(`${id}-replies`);
     if (targetDiv.style.display == "none") {
@@ -455,6 +467,7 @@ function expandReplies(id) {
         targetDiv.style.display = "none";
     }
 }
+
 function changePage(dir) {
     const leftButton = document.getElementById("c_leftButton");
     const rightButton = document.getElementById("c_rightButton");

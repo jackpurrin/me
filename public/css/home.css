@@ -9,11 +9,11 @@
 }
 
 .poll {
-    background-color: #26233a; 
-    padding: 2px; 
-    width: 135px; 
-    font-size: small; 
-    color: #e0def4; 
+    background-color: #26233a;
+    padding: 2px;
+    width: 135px;
+    font-size: small;
+    color: #e0def4;
     box-shadow: 0px 0px 5px #888;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .clear {
-    clear: both; 
+    clear: both;
     height: 2px;
 }
 
@@ -31,12 +31,10 @@
 }
 
 label {
-    float: left; 
+    float: left;
     width: 110px;
 }
 
 input {
     float: left;
 }
-
-
