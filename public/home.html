@@ -1,101 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>home - internet cafe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="assets/icons/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+        <link rel="shortcut icon" href="assets/icons/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+        <link rel="stylesheet" href="css/home.css" />
+    </head>
 
-<head>
-    <title>home - internet cafe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="assets/icons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
-    <link rel="shortcut icon" href="assets/icons/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
-    <link rel="stylesheet" href="css/home.css" />
-</head>
-
-<body>
-    <main id="main">
-        <img class="clouds" src="assets/img/clouds.png" />
-        <h1>home</h1>
-        <hr />
-        <h2>navigation</h2>
-        <p>it's cleaner to have the navigation hidden and then show when needed. so i made it hide and only show when needed</p>
-        <p onclick="hideshow()"><strong>click me to show the navigation</strong></p>
-        <div id="navelements">
+    <body>
+        <main id="main">
+            <img class="clouds" src="assets/img/clouds.png" />
+            <h1>home</h1>
+            <hr />
+            <h2>navigation</h2>
+            <p>it's cleaner to have the navigation hidden and then show when needed. so i made it hide and only show when needed</p>
+            <p onclick="hideshow()"><strong>click me to show the navigation</strong></p>
+            <div id="navelements">
+                <li>
+                    <h2>on site</h2>
+                </li>
+                <li><a href="pages/about">about</a></li>
+                <li><a href="https://journal.jackpurrin.me/">journal</a></li>
+                <li><a href="pages/photobook">photobook</a></li>
+                <li><a href="pages/music">music</a></li>
+                <li>
+                    <h2>community stuffs</h2>
+                </li>
+                <li><a href="pages/drawings">community drawings</a></li>
+                <li><a href="pages/guestbook">guestbook</a></li>
+                <li><a href="pages/chat">chat room</a></li>
+                <li><a href="https://discord.com/invite/HF4FsEZ5Kj">discord</a></li>
+                <h2>off site</h2>
+                <li><a href="pages/socials">socials</a></li>
+                <li><a href="pages/webrings">webrings and buttons</a></li>
+                <h2>site stuff</h2>
+                <li>
+                    <a href="pages/credits"><strong>credits!</strong></a>
+                </li>
+                <li><a href="sitemap.xml">sitemap</a></li>
+                <li><a href="https://github.com/jackpurrin/me">source code</a></li>
+                <li><a href="pages/changelog">changelog</a></li>
+                <li><a href="pages/todo">todo list</a></li>
+                <li><a href="https://dev.jackpurrin.me/">development version</a></li>
+            </div>
+            <script src="script/other/nav.js"></script>
+            <hr />
+            <h2>about</h2>
+            <p>This website was made by a nerdy and bored high school student. I spend most of my time programming and learning. Inside and outside of school.</p>
+            <p>My hobbies are music and programming. I used to play Minecraft and other games, but I don't play very many games anymore.</p>
+            <p>Read more about me and this website <a href="pages/about">here</a></p>
+            <hr />
+            <h2>webrings</h2>
+            <p>Webrings are some cool things. It's like a small internet of people's websites linked together, in a ring!</p>
+            <p>I have joined quite a few of them, and most of them I find really interesting!</p>
+            <p>If you wanna check some out and meet my neighbors, <a href="pages/webrings">click here!</a></p>
+            <hr />
+            <h2>journal</h2>
+            <p>i have a digital journal, i keep my thoughts, ideas, and feelings there. i recently redid it and nuked it, but soon there will be something interesting there!</p>
+            <p>if you wanna check it out, <a href="https://journal.jackpurrin.me/">click me!</a></p>
+            <hr />
+            <h2>drawings</h2>
+            <p>I wanna know the people that come onto my website better, and a fun and interesting way to do that is by the things the peoples draw!</p>
+            <p>So I made a page dedicated on my website just for the drawings my people have made! Anyone can put something on there, and they can look at it too!</p>
+            <p>Just email me, listed on my socials or on the page itself.</p>
+            <p>Check out the area over <a href="pages/drawings">here!</a></p>
+            <hr />
+            <h2>now</h2>
             <li>
-                <h2>on site</h2>
+                <ul>
+                    watching: nothing currently
+                </ul>
+                <ul>
+                    listening: bubble gum - clario
+                </ul>
+                <ul>
+                    feeling:
+                    <a href="https://www.imood.com/users/jackpurrin"><img src="https://moods.imood.com/display/uname-jackpurrin/fg-e0def/trans-1/imood.gif" alt="The current mood of jackpurrin at www.imood.com" border="0" /></a>
+                </ul>
+                <ul>
+                    <div id="statuscafe">
+                        <div id="statuscafe-content"></div>
+                    </div>
+                </ul>
+                <ul>
+                    playing: nothing
+                </ul>
+                <ul>
+                    doing: bug fixes and adding stuff to my website
+                </ul>
             </li>
-            <li><a href="pages/about">about</a></li>
-            <li><a href="https://journal.jackpurrin.me/">journal</a></li>
-            <li><a href="pages/photobook">photobook</a></li>
-            <li><a href="pages/now">now</a></li>
-            <li><a href="pages/music">music</a></li>
+            <script src="script/widgets/status.js"></script>
+            <h2>last.fm</h2>
+            <lastfm-tracks interval="35" user="hackpurrin" apikey="7d163396fefdb4e9b336b0ed9dde46be" class="no-albums" tracks="10"></lastfm-tracks>
+            <script src="script/widgets/lfm.js" type="module"></script>
+            <hr />
+            <h2>stats</h2>
             <li>
-                <h2>community stuffs</h2>
+                <ul>
+                    created: 04/20/24
+                </ul>
+                <ul id="date"></ul>
             </li>
-            <li><a href="pages/drawings">community drawings</a></li>
-            <li><a href="pages/guestbook">guestbook</a></li>
-            <li><a href="pages/chat">chat room</a></li>
-            <li><a href="https://discord.com/invite/HF4FsEZ5Kj">discord</a></li>
-            <h2>off site</h2>
-            <li><a href="pages/socials">socials</a></li>
-            <li><a href="pages/webrings">webrings and buttons</a></li>
-            <h2>site stuff</h2>
-            <li>
-                <a href="pages/credits"><strong>credits!</strong></a>
-            </li>
-            <li><a href="sitemap.xml">sitemap</a></li>
-            <li><a href="https://github.com/jackpurrin/me">source code</a></li>
-            <li><a href="pages/changelog">changelog</a></li>
-            <li><a href="pages/todo">todo list</a></li>
-            <li><a href="https://dev.jackpurrin.me/">development version</a></li>
-        </div>
-        <script src="script/other/nav.js"></script>
-        <hr />
-        <h2>about</h2>
-        <p>This website was made by a nerdy and bored high school student. I spend most of my time programming and learning. Inside and outside of school.</p>
-        <p>My hobbies are music and programming. I used to play Minecraft and other games, but I don't play very many games anymore.</p>
-        <p>Read more about me and this website <a href="pages/about">here</a></p>
-        <hr />
-        <h2>webrings</h2>
-        <p>Webrings are some cool things. It's like a small internet of people's websites linked together, in a ring!</p>
-        <p>I have joined quite a few of them, and most of them I find really interesting!</p>
-        <p>If you wanna check some out and meet my neighbors, <a href="pages/webrings">click here!</a></p>
-        <hr />
-        <h2>journal</h2>
-        <p>i have a digital journal, i keep my thoughts, ideas, and feelings there. i recently redid it and nuked it, but soon there will be something interesting there!</p>
-        <p>if you wanna check it out, <a href="https://journal.jackpurrin.me/">click me!</a></p>
-        <hr />
-        <h2>drawings</h2>
-        <p>I wanna know the people that come onto my website better, and a fun and interesting way to do that is by the things the peoples draw!</p>
-        <p>So I made a page dedicated on my website just for the drawings my people have made! Anyone can put something on there, and they can look at it too!</p>
-        <p>Just email me, listed on my socials or on the page itself.</p>
-        <p>Check out the area over <a href="pages/drawings">here!</a></p>
-        <hr />
-        <h2>status and mood</h2>
-        <div id="statuscafe">
-            <div id="statuscafe-username"></div>
-            <div id="statuscafe-content"></div>
-        </div>
-        <script src="script/widgets/status.js"></script>
-        <a href="https://www.imood.com/users/jackpurrin"><img src="https://moods.imood.com/display/uname-jackpurrin/fg-e0def/trans-1/imood.gif" alt="The current mood of jackpurrin at www.imood.com" border="0" /></a>
-        <hr />
-        <h2>last.fm</h2>
-        <lastfm-tracks interval="35" user="hackpurrin" apikey="7d163396fefdb4e9b336b0ed9dde46be" class="no-albums" tracks="10"></lastfm-tracks>
-        <script src="script/widgets/lfm.js" type="module"></script>
-        <hr />
-        <h2>stats</h2>
-        <li>
-            <ul>created: 04/20/24</ul>
-            <ul id="date"></ul>
-        </li>
-        <script src="script/widgets/stats.js"></script>
-        <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=40487343&main=1"></script>
-        <noscript><img src="//counter1.fc2.com/counter_img.php?id=40487343&main=1" /></noscript>
-    </main>
-    <img src="assets/img/candle.gif" onclick="invert()" class="cornerling" />
-    <script src="script/other/secret.js"></script>
-    <script src="script/decorations/oneko.js"></script>
-    <script src="script/decorations/cursors.js"></script>
-</body>
+            <script src="script/widgets/stats.js"></script>
+            <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=40487343&main=1"></script>
+            <noscript><img src="//counter1.fc2.com/counter_img.php?id=40487343&main=1" /></noscript>
+        </main>
+        <img src="assets/img/candle.gif" onclick="invert()" class="cornerling" />
+        <script src="script/other/secret.js"></script>
+        <script src="script/decorations/oneko.js"></script>
+        <script src="script/decorations/cursors.js"></script>
+    </body>
 
 </html>
