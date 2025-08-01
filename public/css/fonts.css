@@ -12,6 +12,7 @@ body {
 a {
     color: var(--link-clr);
     text-decoration: none;
+    cursor: url('/assets/cursors/hover/rose.cur'), url('/assets/cursors/hover/rose.png'), url('/assets/cursors/hover/rose.ico'), default  !important;
 }
 
 a:hover {
