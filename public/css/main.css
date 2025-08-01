@@ -5,6 +5,7 @@ html,
 main,
 body {
     background-color: var(--bkg-clr);
+    cursor: url(/assets/cursors/rose.cur) !important;
 }
 
 main {
