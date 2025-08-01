@@ -5,6 +5,7 @@ html,
 main,
 body {
     background-color: var(--bkg-clr);
+    cursor: url('/assets/cursors/normal/rose.cur'), url('/assets/cursors/normal/rose.png'), url('/assets/cursors/normal/rose.ico'), default  !important;
 }
 
 main {
@@ -26,10 +27,6 @@ ul {
 hr {
     width: 40%;
     margin: 1rem;
-}
-
-h2 {
-    margin: 0;
 }
 
 .clouds {

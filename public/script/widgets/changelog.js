@@ -42,7 +42,7 @@ function getCommits(startDiv) {
                 let fetchedMessage = res[startDiv].commit.message;
                 let replacedMessage = fetchedMessage.replace("Signed-off-by: ~jack", "");
                 document.getElementById("m" + startDiv).innerHTML = replacedMessage;
-                let date = res[0].commit.author.date;
+                let date = res[startDiv].commit.author.date;
                 let year = date.slice(0, 4);
                 let month = date.slice(5, 7);
                 let day = date.slice(8, 10);

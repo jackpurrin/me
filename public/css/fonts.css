@@ -5,28 +5,35 @@ body {
     color: var(--text-clr);
     font-size: 1rem;
     line-height: 2rem !important;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 4px rgb(144, 140, 170);
     text-transform: lowercase;
 }
 
 a {
     color: var(--link-clr);
     text-decoration: none;
+    cursor: url('/assets/cursors/hover/rose.cur'), url('/assets/cursors/hover/rose.png'), url('/assets/cursors/hover/rose.ico'), default  !important;
 }
 
 a:hover {
     text-decoration: underline 1px;
-    font-size: 1.1rem;
+    font-size: 0.85rem !important;
     background-color: var(--sel-clr);
     border-radius: 5px;
-    font-family: monospace;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1:hover a {
+    font-size: 2rem !important;
+    font-family: "Times New Roman", Times, serif
 }
 
 main p {
     width: 40%;
-}
-
-p {
     margin: 0.5rem;
 }
 

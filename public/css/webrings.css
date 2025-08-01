@@ -49,3 +49,9 @@ main {
 #nekowebring .webring-links {
     font-size: small;
 }
+
+iframe {
+    width: 180px;
+    height: 180px;
+    border: none;
+}
